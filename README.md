@@ -1,4 +1,4 @@
-♟️ Chess Analyzer
+♟️ #Chess Analyzer
 
 Ce dépôt contient deux projets complémentaires d’analyse automatisée autour du moteur Stockfish et de données issues de parties d’échecs personnelles.
 L’objectif global est de mesurer et comprendre les erreurs récurrentes dans les ouvertures, ainsi que d’évaluer les performances de Stockfish selon différents temps de calcul.
