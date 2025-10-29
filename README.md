@@ -28,7 +28,7 @@ Le fichier doit contenir une FEN par ligne, sans guillemets.
 Les fichiers Python sont à exécuter dans l’ordre numérique
 
 **Résultats**
-Un tableau avec comme colonnes : La position FEN, si vous êtes les blancs ou les noirs, votre move et son eval, le move de Stockfish et son eval, la différence d'évaluation, la récurrence de cette position
+Un tableau avec comme colonnes : La position FEN, si vous êtes les blancs ou les noirs, votre move et son eval, le move de Stockfish et son eval, la différence d'évaluation, la récurrence de cette position.
 Avec ça vous pouvez copier-coller le FEN sur chess.com (ou autres) pour le visualiser et éventuellement l'analyser ou le sauvegarder.
 
 ## 2. Stockfish Performance Analysis
@@ -38,7 +38,7 @@ Comparer les performances de Stockfish (score d’évaluation et temps de calcul
 
 **Fonctionnement :**
 
-Plusieurs configurations de temps (ex. 0.1s, 0.5s, 1s, etc.) sont testées sur un même ensemble de positions.
+Plusieurs configurations de temps (allant de 0.2 à 20 secondes) sont testées sur un même ensemble de positions.
 
 Les résultats permettent d’identifier le meilleur compromis entre vitesse et précision d’évaluation.
 
@@ -47,8 +47,12 @@ Même principe : lancer les scripts Python dans l’ordre
 
 **Résultats**
 Un tableau avec une ligne par temps d'exécution et les colonnes : 
-l'estimation d'elo, la moyenne de score en centipions, le pourcentage d'évaluations de Stockfish qui donne le même move, la différence moyenne d'évaluation, le plus grand écart d'évaluation
-Ce qui est intéressant est de voir que la moyenne d'évaluation augmente avec l'elo -> **un gros élo est capable de plus facilement convertir son avantage**
+l'estimation d'elo, la moyenne de score en centipions, le pourcentage d'évaluations de Stockfish qui donne le même move, la différence moyenne d'évaluation, le plus grand écart d'évaluation.
+
+Ce qui est intéressant est de voir que la moyenne d'évaluation augmente avec l'elo.
+
+**-> Un meilleur elo est capable de mieux convertir son avantage**
+
 Autres observations moins percutantes : 
 - la différence moyenne d'évaluation s'améliore plus lentement que la différence maximale entre 2 évaluations
 - le pourcentage de moves similaires s'améliore progressivement pour atteindre presque 100% à 2800+ elos
