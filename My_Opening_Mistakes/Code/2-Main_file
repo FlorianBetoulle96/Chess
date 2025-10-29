@@ -1,0 +1,50 @@
+import chess
+import chess.engine
+
+STOCKFISH_PATH = r"stockfish.exe"
+
+def evaluate_position(fen, engine, time_limit=0.4):
+    board = chess.Board(fen)
+    info = engine.analyse(board, chess.engine.Limit(time=8
+                                                    ))
+    best_move = info.get("pv")[0] if "pv" in info else None
+    score = info["score"].white().score(mate_score=10000)
+    eval_score = round(score / 100.0, 2) if isinstance(score, int) else score
+    return board.san(best_move) if best_move else None, eval_score
+
+input_file = "../Files/games_fen.txt"
+output_file = "../Files/final.txt"
+
+with chess.engine.SimpleEngine.popen_uci(STOCKFISH_PATH) as engine, \
+     open(input_file, "r", encoding="utf-8") as f_in, \
+     open(output_file, "w", encoding="utf-8") as f_out:
+
+    for line in f_in:
+        line = line.strip()
+        if not line or line.startswith("Game"):
+            f_out.write(line + "\n")
+            continue
+
+        try:
+            parts = [x.strip() for x in line.split(" / ")]
+            fen = parts[0]
+            my_move = parts[1]
+
+            # --- Meilleur coup Stockfish et évaluation après ce coup ---
+            board_sf = chess.Board(fen)
+            best_move_sf, eval_after_sf = evaluate_position(fen, engine)
+            
+            # --- Évaluation après ton coup réel ---
+            board_my = chess.Board(fen)
+            board_my.push_san(my_move)
+            fen_after_my_move = board_my.fen()
+            _, eval_after_my_move = evaluate_position(fen_after_my_move, engine)
+
+            # --- Écriture finale ---
+            f_out.write(f"{fen} / {best_move_sf} / {eval_after_sf} / {my_move} / {eval_after_my_move}\n")
+
+        except Exception as e:
+            f_out.write(f"# Erreur sur la ligne : {line} ({e})\n")
+        print("line", line)
+
+print(f"✅ Analyse complète enregistrée dans {output_file}")

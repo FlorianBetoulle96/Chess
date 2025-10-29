@@ -1,0 +1,294 @@
+
+== FEN 1/49 ==
+FEN_1 r4rk1/p2q1ppp/1p2p3/3pn3/8/4N3/PPP1QPPP/R4RK1 w - | 0.2s | score_avg = -170.0 | elo_est = 1775 | diff_max = 35 | diff_avg = 10.0 | depth_avg = 17.0 | nodes_avg = 245884 | %_same_move = 90.0
+FEN_1 r4rk1/p2q1ppp/1p2p3/3pn3/8/4N3/PPP1QPPP/R4RK1 w - | 1.0s | score_avg = -159.0 | elo_est = 2100 | diff_max = 47 | diff_avg = 16.0 | depth_avg = 21.0 | nodes_avg = 1098510 | %_same_move = 60.0
+FEN_1 r4rk1/p2q1ppp/1p2p3/3pn3/8/4N3/PPP1QPPP/R4RK1 w - | 3.0s | score_avg = -143 | elo_est = 2600 | diff_max = 24 | diff_avg = 7.0 | depth_avg = 26.0 | nodes_avg = 3445898 | %_same_move = 100.0
+FEN_1 r4rk1/p2q1ppp/1p2p3/3pn3/8/4N3/PPP1QPPP/R4RK1 w - | 20.0s | score_avg = -146 | elo_est = 2975 | diff_max = 15 | diff_avg = 6.0 | depth_avg = 35.0 | nodes_avg = 20941177 | %_same_move = 100.0
+
+== FEN 2/49 ==
+FEN_2 1r2k2r/p2nbppp/4p1B1/2qpP1B1/8/5N2/PPP1QPPP/R4RK1 b k | 0.2s | score_avg = 109.0 | elo_est = 1850 | diff_max = 14 | diff_avg = 4.0 | depth_avg = 18.0 | nodes_avg = 245211 | %_same_move = 100.0
+FEN_2 1r2k2r/p2nbppp/4p1B1/2qpP1B1/8/5N2/PPP1QPPP/R4RK1 b k | 1.0s | score_avg = 101.0 | elo_est = 2300 | diff_max = 34 | diff_avg = 10.0 | depth_avg = 23 | nodes_avg = 1215279 | %_same_move = 100.0
+FEN_2 1r2k2r/p2nbppp/4p1B1/2qpP1B1/8/5N2/PPP1QPPP/R4RK1 b k | 3.0s | score_avg = 92.0 | elo_est = 2800 | diff_max = 34 | diff_avg = 8.0 | depth_avg = 28.0 | nodes_avg = 3412075 | %_same_move = 100.0
+FEN_2 1r2k2r/p2nbppp/4p1B1/2qpP1B1/8/5N2/PPP1QPPP/R4RK1 b k | 20.0s | score_avg = 98.0 | elo_est = 3000 | diff_max = 23 | diff_avg = 6.0 | depth_avg = 36.0 | nodes_avg = 21630053 | %_same_move = 100.0
+
+== FEN 3/49 ==
+FEN_3 1r2k2r/p2nb1pp/4p1p1/2qpP1B1/8/5N2/PPP1QPPP/R4RK1 w k | 0.2s | score_avg = 219.0 | elo_est = 1700 | diff_max = 40 | diff_avg = 10.0 | depth_avg = 16.0 | nodes_avg = 233998 | %_same_move = 90.0
+FEN_3 1r2k2r/p2nb1pp/4p1p1/2qpP1B1/8/5N2/PPP1QPPP/R4RK1 w k | 1.0s | score_avg = 226.0 | elo_est = 2200 | diff_max = 42 | diff_avg = 9.0 | depth_avg = 22.0 | nodes_avg = 1170572 | %_same_move = 70.0
+FEN_3 1r2k2r/p2nb1pp/4p1p1/2qpP1B1/8/5N2/PPP1QPPP/R4RK1 w k | 3.0s | score_avg = 217 | elo_est = 2600 | diff_max = 31 | diff_avg = 6.0 | depth_avg = 26.0 | nodes_avg = 3268383 | %_same_move = 70.0
+FEN_3 1r2k2r/p2nb1pp/4p1p1/2qpP1B1/8/5N2/PPP1QPPP/R4RK1 w k | 20.0s | score_avg = 225.0 | elo_est = 2925 | diff_max = 27 | diff_avg = 9.0 | depth_avg = 33.0 | nodes_avg = 22216133 | %_same_move = 100.0
+
+== FEN 4/49 ==
+FEN_4 r4rk1/p4pp1/1np1p2p/qp1pPb2/3P3N/P1P5/1P2QPPP/2KR1B1R b - | 0.2s | score_avg = -297 | elo_est = 1700 | diff_max = 53 | diff_avg = 13.0 | depth_avg = 16.0 | nodes_avg = 241463 | %_same_move = 100.0
+FEN_4 r4rk1/p4pp1/1np1p2p/qp1pPb2/3P3N/P1P5/1P2QPPP/2KR1B1R b - | 1.0s | score_avg = -323.0 | elo_est = 2000 | diff_max = 49 | diff_avg = 10.0 | depth_avg = 20.0 | nodes_avg = 1169685 | %_same_move = 100.0
+FEN_4 r4rk1/p4pp1/1np1p2p/qp1pPb2/3P3N/P1P5/1P2QPPP/2KR1B1R b - | 3.0s | score_avg = -355.0 | elo_est = 2300 | diff_max = 46 | diff_avg = 10.0 | depth_avg = 23.0 | nodes_avg = 2958868 | %_same_move = 100.0
+FEN_4 r4rk1/p4pp1/1np1p2p/qp1pPb2/3P3N/P1P5/1P2QPPP/2KR1B1R b - | 20.0s | score_avg = -384.0 | elo_est = 2800 | diff_max = 74 | diff_avg = 17.0 | depth_avg = 28.0 | nodes_avg = 19696747 | %_same_move = 100.0
+
+== FEN 5/49 ==
+FEN_5 r4rk1/p4ppb/1np1p2p/qp1pP3/3P3N/P1P5/1P2QPPP/2KR1B1R w - | 0.2s | score_avg = -321.0 | elo_est = 1550 | diff_max = 76 | diff_avg = 17.0 | depth_avg = 14.0 | nodes_avg = 237656 | %_same_move = 40.0
+FEN_5 r4rk1/p4ppb/1np1p2p/qp1pP3/3P3N/P1P5/1P2QPPP/2KR1B1R w - | 1.0s | score_avg = -327.0 | elo_est = 2100 | diff_max = 129 | diff_avg = 22.0 | depth_avg = 21.0 | nodes_avg = 1123628 | %_same_move = 80.0
+FEN_5 r4rk1/p4ppb/1np1p2p/qp1pP3/3P3N/P1P5/1P2QPPP/2KR1B1R w - | 3.0s | score_avg = -329.0 | elo_est = 2400 | diff_max = 90 | diff_avg = 14.0 | depth_avg = 24.0 | nodes_avg = 3320539 | %_same_move = 90.0
+FEN_5 r4rk1/p4ppb/1np1p2p/qp1pP3/3P3N/P1P5/1P2QPPP/2KR1B1R w - | 20.0s | score_avg = -346.0 | elo_est = 2900 | diff_max = 54 | diff_avg = 14.0 | depth_avg = 32 | nodes_avg = 20718319 | %_same_move = 100.0
+
+== FEN 6/49 ==
+FEN_6 r3k2r/1p1nbppp/p7/2p1pq2/Q3p3/2N1B1N1/PPP2PPP/3R1RK1 b kq | 0.2s | score_avg = 780.0 | elo_est = 1775 | diff_max = 27 | diff_avg = 6.0 | depth_avg = 17.0 | nodes_avg = 247938 | %_same_move = 100.0
+FEN_6 r3k2r/1p1nbppp/p7/2p1pq2/Q3p3/2N1B1N1/PPP2PPP/3R1RK1 b kq | 1.0s | score_avg = 790.0 | elo_est = 2100 | diff_max = 54 | diff_avg = 13.0 | depth_avg = 21.0 | nodes_avg = 1201109 | %_same_move = 100.0
+FEN_6 r3k2r/1p1nbppp/p7/2p1pq2/Q3p3/2N1B1N1/PPP2PPP/3R1RK1 b kq | 3.0s | score_avg = 818.0 | elo_est = 2500 | diff_max = 34 | diff_avg = 7.0 | depth_avg = 25.0 | nodes_avg = 3678976 | %_same_move = 100.0
+FEN_6 r3k2r/1p1nbppp/p7/2p1pq2/Q3p3/2N1B1N1/PPP2PPP/3R1RK1 b kq | 20.0s | score_avg = 845.0 | elo_est = 2950 | diff_max = 20 | diff_avg = 6.0 | depth_avg = 34 | nodes_avg = 25683007 | %_same_move = 100.0
+
+== FEN 7/49 ==
+FEN_7 r3k2r/1p1nbppp/p3q3/2p1p3/Q3p3/2N1B1N1/PPP2PPP/3R1RK1 w kq | 0.2s | score_avg = 860.0 | elo_est = 2000 | diff_max = 12 | diff_avg = 3.0 | depth_avg = 20.0 | nodes_avg = 356747 | %_same_move = 100.0
+FEN_7 r3k2r/1p1nbppp/p3q3/2p1p3/Q3p3/2N1B1N1/PPP2PPP/3R1RK1 w kq | 1.0s | score_avg = 852.0 | elo_est = 2400 | diff_max = 28 | diff_avg = 8.0 | depth_avg = 24.0 | nodes_avg = 1479482 | %_same_move = 100.0
+FEN_7 r3k2r/1p1nbppp/p3q3/2p1p3/Q3p3/2N1B1N1/PPP2PPP/3R1RK1 w kq | 3.0s | score_avg = 848.0 | elo_est = 2700 | diff_max = 22 | diff_avg = 5.0 | depth_avg = 27.0 | nodes_avg = 4190731 | %_same_move = 100.0
+FEN_7 r3k2r/1p1nbppp/p3q3/2p1p3/Q3p3/2N1B1N1/PPP2PPP/3R1RK1 w kq | 20.0s | score_avg = 852.0 | elo_est = 2925 | diff_max = 38 | diff_avg = 11.0 | depth_avg = 33.0 | nodes_avg = 26798073 | %_same_move = 100.0
+
+== FEN 8/49 ==
+FEN_8 r1b1k2r/pp4pp/2pR1n2/4N3/5P2/2N1n3/PPP1B1PP/5RK1 b kq | 0.2s | score_avg = -158.0 | elo_est = 1700 | diff_max = 17 | diff_avg = 4.0 | depth_avg = 16 | nodes_avg = 226362 | %_same_move = 100.0
+FEN_8 r1b1k2r/pp4pp/2pR1n2/4N3/5P2/2N1n3/PPP1B1PP/5RK1 b kq | 1.0s | score_avg = -142.0 | elo_est = 2200 | diff_max = 33 | diff_avg = 7.0 | depth_avg = 22.0 | nodes_avg = 1126213 | %_same_move = 70.0
+FEN_8 r1b1k2r/pp4pp/2pR1n2/4N3/5P2/2N1n3/PPP1B1PP/5RK1 b kq | 3.0s | score_avg = -165.0 | elo_est = 2600 | diff_max = 36 | diff_avg = 8.0 | depth_avg = 26.0 | nodes_avg = 3223183 | %_same_move = 100.0
+FEN_8 r1b1k2r/pp4pp/2pR1n2/4N3/5P2/2N1n3/PPP1B1PP/5RK1 b kq | 20.0s | score_avg = -170.0 | elo_est = 2925 | diff_max = 33 | diff_avg = 8.0 | depth_avg = 33.0 | nodes_avg = 20872854 | %_same_move = 100.0
+
+== FEN 9/49 ==
+FEN_9 r1b1k2r/pp4pp/2pR1n2/4N3/5P2/2N5/PPP1B1PP/5nK1 w kq | 0.2s | score_avg = -169.0 | elo_est = 2200 | diff_max = 24 | diff_avg = 5.0 | depth_avg = 22.0 | nodes_avg = 241151 | %_same_move = 100.0
+FEN_9 r1b1k2r/pp4pp/2pR1n2/4N3/5P2/2N5/PPP1B1PP/5nK1 w kq | 1.0s | score_avg = -153.0 | elo_est = 2500 | diff_max = 35 | diff_avg = 9.0 | depth_avg = 25.0 | nodes_avg = 1096817 | %_same_move = 100.0
+FEN_9 r1b1k2r/pp4pp/2pR1n2/4N3/5P2/2N5/PPP1B1PP/5nK1 w kq | 3.0s | score_avg = -166.0 | elo_est = 2600 | diff_max = 36 | diff_avg = 11.0 | depth_avg = 26 | nodes_avg = 3169713 | %_same_move = 80.0
+FEN_9 r1b1k2r/pp4pp/2pR1n2/4N3/5P2/2N5/PPP1B1PP/5nK1 w kq | 20.0s | score_avg = -164.0 | elo_est = 2900 | diff_max = 33 | diff_avg = 6.0 | depth_avg = 32.0 | nodes_avg = 18742411 | %_same_move = 90.0
+
+== FEN 10/49 ==
+FEN_10 r1b1kbr1/ppq2N2/2n2Bnp/3p3Q/8/3B4/PPP2PPP/RN2K2R b KQ | 0.2s | score_avg = -602.0 | elo_est = 1700 | diff_max = 65 | diff_avg = 17.0 | depth_avg = 16.0 | nodes_avg = 230743 | %_same_move = 100.0
+FEN_10 r1b1kbr1/ppq2N2/2n2Bnp/3p3Q/8/3B4/PPP2PPP/RN2K2R b KQ | 1.0s | score_avg = -660.0 | elo_est = 2100 | diff_max = 115 | diff_avg = 27.0 | depth_avg = 21.0 | nodes_avg = 1096501 | %_same_move = 100.0
+FEN_10 r1b1kbr1/ppq2N2/2n2Bnp/3p3Q/8/3B4/PPP2PPP/RN2K2R b KQ | 3.0s | score_avg = -703.0 | elo_est = 2400 | diff_max = 33 | diff_avg = 7.0 | depth_avg = 24.0 | nodes_avg = 3323456 | %_same_move = 100.0
+FEN_10 r1b1kbr1/ppq2N2/2n2Bnp/3p3Q/8/3B4/PPP2PPP/RN2K2R b KQ | 20.0s | score_avg = -712.0 | elo_est = 2875 | diff_max = 45 | diff_avg = 12.0 | depth_avg = 31.0 | nodes_avg = 21536021 | %_same_move = 100.0
+
+== FEN 11/49 ==
+FEN_11 r1b1kbr1/pp3q2/2n2Bnp/3p3Q/8/3B4/PPP2PPP/RN2K2R w KQ | 0.2s | score_avg = -730.0 | elo_est = 1850 | diff_max = 51 | diff_avg = 10.0 | depth_avg = 18.0 | nodes_avg = 246224 | %_same_move = 60.0
+FEN_11 r1b1kbr1/pp3q2/2n2Bnp/3p3Q/8/3B4/PPP2PPP/RN2K2R w KQ | 1.0s | score_avg = -706.0 | elo_est = 2200 | diff_max = 55 | diff_avg = 15.0 | depth_avg = 22.0 | nodes_avg = 1157624 | %_same_move = 90.0
+FEN_11 r1b1kbr1/pp3q2/2n2Bnp/3p3Q/8/3B4/PPP2PPP/RN2K2R w KQ | 3.0s | score_avg = -692.0 | elo_est = 2400 | diff_max = 50 | diff_avg = 15.0 | depth_avg = 24.0 | nodes_avg = 3311696 | %_same_move = 90.0
+FEN_11 r1b1kbr1/pp3q2/2n2Bnp/3p3Q/8/3B4/PPP2PPP/RN2K2R w KQ | 20.0s | score_avg = -713.0 | elo_est = 2850 | diff_max = 46 | diff_avg = 9.0 | depth_avg = 30.0 | nodes_avg = 21889073 | %_same_move = 100.0
+
+== FEN 12/49 ==
+FEN_12 r2qk2r/pp1nbppp/5n2/1N1p1bN1/P2PP2P/6P1/1PP3B1/R1BQ1RK1 b kq | 0.2s | score_avg = 223.0 | elo_est = 1850 | diff_max = 32 | diff_avg = 8.0 | depth_avg = 18.0 | nodes_avg = 224993 | %_same_move = 100.0
+FEN_12 r2qk2r/pp1nbppp/5n2/1N1p1bN1/P2PP2P/6P1/1PP3B1/R1BQ1RK1 b kq | 1.0s | score_avg = 266.0 | elo_est = 2200 | diff_max = 63 | diff_avg = 15.0 | depth_avg = 22.0 | nodes_avg = 1098765 | %_same_move = 100.0
+FEN_12 r2qk2r/pp1nbppp/5n2/1N1p1bN1/P2PP2P/6P1/1PP3B1/R1BQ1RK1 b kq | 3.0s | score_avg = 278.0 | elo_est = 2600 | diff_max = 43 | diff_avg = 12.0 | depth_avg = 26.0 | nodes_avg = 3273867 | %_same_move = 100.0
+FEN_12 r2qk2r/pp1nbppp/5n2/1N1p1bN1/P2PP2P/6P1/1PP3B1/R1BQ1RK1 b kq | 20.0s | score_avg = 288.0 | elo_est = 2925 | diff_max = 47 | diff_avg = 11.0 | depth_avg = 33.0 | nodes_avg = 21253928 | %_same_move = 100.0
+
+== FEN 13/49 ==
+FEN_13 r2qk2r/pp1nbppp/5n2/1N3bN1/P2Pp2P/6P1/1PP3B1/R1BQ1RK1 w kq | 0.2s | score_avg = 814.0 | elo_est = 1700 | diff_max = 45 | diff_avg = 12.0 | depth_avg = 16.0 | nodes_avg = 235096 | %_same_move = 100.0
+FEN_13 r2qk2r/pp1nbppp/5n2/1N3bN1/P2Pp2P/6P1/1PP3B1/R1BQ1RK1 w kq | 1.0s | score_avg = 814.0 | elo_est = 2200 | diff_max = 40 | diff_avg = 11.0 | depth_avg = 22.0 | nodes_avg = 1186593 | %_same_move = 100.0
+FEN_13 r2qk2r/pp1nbppp/5n2/1N3bN1/P2Pp2P/6P1/1PP3B1/R1BQ1RK1 w kq | 3.0s | score_avg = 837.0 | elo_est = 2500 | diff_max = 29 | diff_avg = 8.0 | depth_avg = 25.0 | nodes_avg = 3489552 | %_same_move = 100.0
+FEN_13 r2qk2r/pp1nbppp/5n2/1N3bN1/P2Pp2P/6P1/1PP3B1/R1BQ1RK1 w kq | 20.0s | score_avg = 848 | elo_est = 2825 | diff_max = 50 | diff_avg = 13 | depth_avg = 29.0 | nodes_avg = 22940054 | %_same_move = 100.0
+
+== FEN 14/49 ==
+FEN_14 r1b2rk1/pp1n1pp1/2n1q2p/4p3/Q1B5/4BN2/PPP2PPP/2KR3R b - | 0.2s | score_avg = 112 | elo_est = 1625 | diff_max = 58 | diff_avg = 16 | depth_avg = 15.0 | nodes_avg = 236020 | %_same_move = 70.0
+FEN_14 r1b2rk1/pp1n1pp1/2n1q2p/4p3/Q1B5/4BN2/PPP2PPP/2KR3R b - | 1.0s | score_avg = 112.0 | elo_est = 2200 | diff_max = 30 | diff_avg = 7.0 | depth_avg = 22.0 | nodes_avg = 1170582 | %_same_move = 90.0
+FEN_14 r1b2rk1/pp1n1pp1/2n1q2p/4p3/Q1B5/4BN2/PPP2PPP/2KR3R b - | 3.0s | score_avg = 109 | elo_est = 2600 | diff_max = 28 | diff_avg = 7.0 | depth_avg = 26.0 | nodes_avg = 3292268 | %_same_move = 100.0
+FEN_14 r1b2rk1/pp1n1pp1/2n1q2p/4p3/Q1B5/4BN2/PPP2PPP/2KR3R b - | 20.0s | score_avg = 111 | elo_est = 2900 | diff_max = 47 | diff_avg = 13.0 | depth_avg = 32.0 | nodes_avg = 20765907 | %_same_move = 100.0
+
+== FEN 15/49 ==
+FEN_15 r1b2rk1/pp1n1pp1/2n2q1p/4p3/Q1B5/4BN2/PPP2PPP/2KR3R w - | 0.2s | score_avg = 181 | elo_est = 1700 | diff_max = 29 | diff_avg = 8.0 | depth_avg = 16.0 | nodes_avg = 214313 | %_same_move = 100.0
+FEN_15 r1b2rk1/pp1n1pp1/2n2q1p/4p3/Q1B5/4BN2/PPP2PPP/2KR3R w - | 1.0s | score_avg = 178.0 | elo_est = 2100 | diff_max = 29 | diff_avg = 7.0 | depth_avg = 21.0 | nodes_avg = 1027552 | %_same_move = 100.0
+FEN_15 r1b2rk1/pp1n1pp1/2n2q1p/4p3/Q1B5/4BN2/PPP2PPP/2KR3R w - | 3.0s | score_avg = 190.0 | elo_est = 2400 | diff_max = 29 | diff_avg = 6.0 | depth_avg = 24.0 | nodes_avg = 2969928 | %_same_move = 100.0
+FEN_15 r1b2rk1/pp1n1pp1/2n2q1p/4p3/Q1B5/4BN2/PPP2PPP/2KR3R w - | 20.0s | score_avg = 194.0 | elo_est = 2900 | diff_max = 37 | diff_avg = 10.0 | depth_avg = 32.0 | nodes_avg = 20631615 | %_same_move = 100.0
+
+== FEN 16/49 ==
+FEN_16 2kr2r1/pppq1p1p/4p3/3pB1n1/bn1P4/1N2PB2/PPPQ1PPP/R3K2R b KQ | 0.2s | score_avg = 68.0 | elo_est = 1700 | diff_max = 53 | diff_avg = 11.0 | depth_avg = 16.0 | nodes_avg = 222747 | %_same_move = 80.0
+FEN_16 2kr2r1/pppq1p1p/4p3/3pB1n1/bn1P4/1N2PB2/PPPQ1PPP/R3K2R b KQ | 1.0s | score_avg = 66.0 | elo_est = 2200 | diff_max = 38 | diff_avg = 10.0 | depth_avg = 22.0 | nodes_avg = 1078814 | %_same_move = 70.0
+FEN_16 2kr2r1/pppq1p1p/4p3/3pB1n1/bn1P4/1N2PB2/PPPQ1PPP/R3K2R b KQ | 3.0s | score_avg = 77.0 | elo_est = 2800 | diff_max = 14 | diff_avg = 4.0 | depth_avg = 28 | nodes_avg = 3085270 | %_same_move = 60.0
+FEN_16 2kr2r1/pppq1p1p/4p3/3pB1n1/bn1P4/1N2PB2/PPPQ1PPP/R3K2R b KQ | 20.0s | score_avg = 59.0 | elo_est = 2950 | diff_max = 29 | diff_avg = 7.0 | depth_avg = 34.0 | nodes_avg = 18591787 | %_same_move = 100.0
+
+== FEN 17/49 ==
+FEN_17 2kr2r1/ppp2p1p/4p3/1q1pB1n1/bn1P4/1N2PB2/PPPQ1PPP/R3K2R w KQ | 0.2s | score_avg = 338.0 | elo_est = 1700 | diff_max = 77 | diff_avg = 22.0 | depth_avg = 16.0 | nodes_avg = 225156 | %_same_move = 100.0
+FEN_17 2kr2r1/ppp2p1p/4p3/1q1pB1n1/bn1P4/1N2PB2/PPPQ1PPP/R3K2R w KQ | 1.0s | score_avg = 333.0 | elo_est = 2100 | diff_max = 48 | diff_avg = 19.0 | depth_avg = 21.0 | nodes_avg = 1063284 | %_same_move = 100.0
+FEN_17 2kr2r1/ppp2p1p/4p3/1q1pB1n1/bn1P4/1N2PB2/PPPQ1PPP/R3K2R w KQ | 3.0s | score_avg = 342.0 | elo_est = 2400 | diff_max = 45 | diff_avg = 13.0 | depth_avg = 24.0 | nodes_avg = 3189738 | %_same_move = 100.0
+FEN_17 2kr2r1/ppp2p1p/4p3/1q1pB1n1/bn1P4/1N2PB2/PPPQ1PPP/R3K2R w KQ | 20.0s | score_avg = 347 | elo_est = 2925 | diff_max = 51 | diff_avg = 15.0 | depth_avg = 33.0 | nodes_avg = 19961855 | %_same_move = 100.0
+
+== FEN 18/49 ==
+FEN_18 r3kbnr/1pp3p1/p1n1pp1p/3pP2q/3P4/P1BB1NPP/1PP1QP2/2KR3R b kq | 0.2s | score_avg = 136.0 | elo_est = 1925 | diff_max = 43 | diff_avg = 11.0 | depth_avg = 19 | nodes_avg = 233216 | %_same_move = 100.0
+FEN_18 r3kbnr/1pp3p1/p1n1pp1p/3pP2q/3P4/P1BB1NPP/1PP1QP2/2KR3R b kq | 1.0s | score_avg = 137.0 | elo_est = 2400 | diff_max = 48 | diff_avg = 13.0 | depth_avg = 24.0 | nodes_avg = 1120167 | %_same_move = 100.0
+FEN_18 r3kbnr/1pp3p1/p1n1pp1p/3pP2q/3P4/P1BB1NPP/1PP1QP2/2KR3R b kq | 3.0s | score_avg = 166.0 | elo_est = 2800 | diff_max = 23 | diff_avg = 6.0 | depth_avg = 28.0 | nodes_avg = 3090402 | %_same_move = 100.0
+FEN_18 r3kbnr/1pp3p1/p1n1pp1p/3pP2q/3P4/P1BB1NPP/1PP1QP2/2KR3R b kq | 20.0s | score_avg = 168.0 | elo_est = 2975 | diff_max = 30 | diff_avg = 8.0 | depth_avg = 35.0 | nodes_avg = 19718265 | %_same_move = 100.0
+
+== FEN 19/49 ==
+FEN_19 r3kbnr/1pp3p1/p1n1p2p/3pp2q/3P4/P1BB1NPP/1PP1QP2/2KR3R w kq | 0.2s | score_avg = 177.0 | elo_est = 2400 | diff_max = 28 | diff_avg = 9.0 | depth_avg = 24.0 | nodes_avg = 250668 | %_same_move = 100.0
+FEN_19 r3kbnr/1pp3p1/p1n1p2p/3pp2q/3P4/P1BB1NPP/1PP1QP2/2KR3R w kq | 1.0s | score_avg = 175.0 | elo_est = 2800 | diff_max = 20 | diff_avg = 4.0 | depth_avg = 28 | nodes_avg = 1103233 | %_same_move = 100.0
+FEN_19 r3kbnr/1pp3p1/p1n1p2p/3pp2q/3P4/P1BB1NPP/1PP1QP2/2KR3R w kq | 3.0s | score_avg = 173.0 | elo_est = 2850 | diff_max = 35 | diff_avg = 8.0 | depth_avg = 30.0 | nodes_avg = 3205380 | %_same_move = 100.0
+FEN_19 r3kbnr/1pp3p1/p1n1p2p/3pp2q/3P4/P1BB1NPP/1PP1QP2/2KR3R w kq | 20.0s | score_avg = 181.0 | elo_est = 3000 | diff_max = 30 | diff_avg = 7.0 | depth_avg = 36.0 | nodes_avg = 19955954 | %_same_move = 100.0
+
+== FEN 20/49 ==
+FEN_20 r2qr1k1/p1p2ppp/1bp2n2/1P6/8/P3N3/2P1QPPP/R1B2RK1 b - | 0.2s | score_avg = -134 | elo_est = 1700 | diff_max = 26 | diff_avg = 6.0 | depth_avg = 16.0 | nodes_avg = 202667 | %_same_move = 90.0
+FEN_20 r2qr1k1/p1p2ppp/1bp2n2/1P6/8/P3N3/2P1QPPP/R1B2RK1 b - | 1.0s | score_avg = -139.0 | elo_est = 2200 | diff_max = 28 | diff_avg = 7.0 | depth_avg = 22.0 | nodes_avg = 955036 | %_same_move = 100.0
+FEN_20 r2qr1k1/p1p2ppp/1bp2n2/1P6/8/P3N3/2P1QPPP/R1B2RK1 b - | 3.0s | score_avg = -135 | elo_est = 2700 | diff_max = 28 | diff_avg = 7.0 | depth_avg = 27.0 | nodes_avg = 2815480 | %_same_move = 90.0
+FEN_20 r2qr1k1/p1p2ppp/1bp2n2/1P6/8/P3N3/2P1QPPP/R1B2RK1 b - | 20.0s | score_avg = -136.0 | elo_est = 2950 | diff_max = 16 | diff_avg = 4.0 | depth_avg = 34.0 | nodes_avg = 21200428 | %_same_move = 100.0
+
+== FEN 21/49 ==
+FEN_21 r2qr1k1/p1p2ppp/1b3n2/1p6/8/P3N3/2P1QPPP/R1B2RK1 w - | 0.2s | score_avg = -134.0 | elo_est = 2400 | diff_max = 16 | diff_avg = 4.0 | depth_avg = 24.0 | nodes_avg = 261630 | %_same_move = 100.0
+FEN_21 r2qr1k1/p1p2ppp/1b3n2/1p6/8/P3N3/2P1QPPP/R1B2RK1 w - | 1.0s | score_avg = -127.0 | elo_est = 2700 | diff_max = 16 | diff_avg = 4.0 | depth_avg = 27.0 | nodes_avg = 1231081 | %_same_move = 100.0
+FEN_21 r2qr1k1/p1p2ppp/1b3n2/1p6/8/P3N3/2P1QPPP/R1B2RK1 w - | 3.0s | score_avg = -125.0 | elo_est = 2800 | diff_max = 27 | diff_avg = 6.0 | depth_avg = 28.0 | nodes_avg = 3402016 | %_same_move = 100.0
+FEN_21 r2qr1k1/p1p2ppp/1b3n2/1p6/8/P3N3/2P1QPPP/R1B2RK1 w - | 20.0s | score_avg = -129.0 | elo_est = 2925 | diff_max = 28 | diff_avg = 8.0 | depth_avg = 33.0 | nodes_avg = 21623109 | %_same_move = 100.0
+
+== FEN 22/49 ==
+FEN_22 r3k2r/pppb1p2/3p1q1p/2b5/2BpP1p1/1N1P4/PP3PPP/RN1QR1K1 b kq | 0.2s | score_avg = 383.0 | elo_est = 1925 | diff_max = 129 | diff_avg = 23.0 | depth_avg = 19.0 | nodes_avg = 243065 | %_same_move = 100.0
+FEN_22 r3k2r/pppb1p2/3p1q1p/2b5/2BpP1p1/1N1P4/PP3PPP/RN1QR1K1 b kq | 1.0s | score_avg = 412 | elo_est = 2200 | diff_max = 64 | diff_avg = 20 | depth_avg = 22.0 | nodes_avg = 1056410 | %_same_move = 100.0
+FEN_22 r3k2r/pppb1p2/3p1q1p/2b5/2BpP1p1/1N1P4/PP3PPP/RN1QR1K1 b kq | 3.0s | score_avg = 443.0 | elo_est = 2400 | diff_max = 63 | diff_avg = 18.0 | depth_avg = 24.0 | nodes_avg = 3253449 | %_same_move = 100.0
+FEN_22 r3k2r/pppb1p2/3p1q1p/2b5/2BpP1p1/1N1P4/PP3PPP/RN1QR1K1 b kq | 20.0s | score_avg = 446.0 | elo_est = 2875 | diff_max = 48 | diff_avg = 15.0 | depth_avg = 31.0 | nodes_avg = 21014652 | %_same_move = 100.0
+
+== FEN 23/49 ==
+FEN_23 2kr3r/pppb1p2/3p1q1p/2b5/2BpP1p1/1N1P4/PP3PPP/RN1QR1K1 w - | 0.2s | score_avg = 524.0 | elo_est = 1700 | diff_max = 32 | diff_avg = 7.0 | depth_avg = 16.0 | nodes_avg = 249123 | %_same_move = 100.0
+FEN_23 2kr3r/pppb1p2/3p1q1p/2b5/2BpP1p1/1N1P4/PP3PPP/RN1QR1K1 w - | 1.0s | score_avg = 536.0 | elo_est = 1925 | diff_max = 36 | diff_avg = 11.0 | depth_avg = 19.0 | nodes_avg = 1179085 | %_same_move = 100.0
+FEN_23 2kr3r/pppb1p2/3p1q1p/2b5/2BpP1p1/1N1P4/PP3PPP/RN1QR1K1 w - | 3.0s | score_avg = 522.0 | elo_est = 2300 | diff_max = 51 | diff_avg = 19.0 | depth_avg = 23.0 | nodes_avg = 3117348 | %_same_move = 100.0
+FEN_23 2kr3r/pppb1p2/3p1q1p/2b5/2BpP1p1/1N1P4/PP3PPP/RN1QR1K1 w - | 20.0s | score_avg = 532 | elo_est = 2875 | diff_max = 41 | diff_avg = 11.0 | depth_avg = 31.0 | nodes_avg = 21683593 | %_same_move = 100.0
+
+== FEN 24/49 ==
+FEN_24 1r3b1r/p2k1ppp/p4n2/2pb4/8/1P2BN2/P1PN1PPP/R4RK1 b - | 0.2s | score_avg = 73.0 | elo_est = 1700 | diff_max = 22 | diff_avg = 7.0 | depth_avg = 16.0 | nodes_avg = 227379 | %_same_move = 100.0
+FEN_24 1r3b1r/p2k1ppp/p4n2/2pb4/8/1P2BN2/P1PN1PPP/R4RK1 b - | 1.0s | score_avg = 64.0 | elo_est = 2300 | diff_max = 48 | diff_avg = 12.0 | depth_avg = 23.0 | nodes_avg = 1120593 | %_same_move = 100.0
+FEN_24 1r3b1r/p2k1ppp/p4n2/2pb4/8/1P2BN2/P1PN1PPP/R4RK1 b - | 3.0s | score_avg = 60.0 | elo_est = 2600 | diff_max = 32 | diff_avg = 8.0 | depth_avg = 26.0 | nodes_avg = 2410813 | %_same_move = 100.0
+FEN_24 1r3b1r/p2k1ppp/p4n2/2pb4/8/1P2BN2/P1PN1PPP/R4RK1 b - | 20.0s | score_avg = 64.0 | elo_est = 2950 | diff_max = 18 | diff_avg = 4.0 | depth_avg = 34.0 | nodes_avg = 18450101 | %_same_move = 100.0
+
+== FEN 25/49 ==
+FEN_25 1r5r/p2k1ppp/p2b1n2/2pb4/8/1P2BN2/P1PN1PPP/R4RK1 w - | 0.2s | score_avg = 69.0 | elo_est = 2400 | diff_max = 22 | diff_avg = 6.0 | depth_avg = 24.0 | nodes_avg = 263500 | %_same_move = 100.0
+FEN_25 1r5r/p2k1ppp/p2b1n2/2pb4/8/1P2BN2/P1PN1PPP/R4RK1 w - | 1.0s | score_avg = 68.0 | elo_est = 2825 | diff_max = 32 | diff_avg = 8.0 | depth_avg = 29.0 | nodes_avg = 1159782 | %_same_move = 100.0
+FEN_25 1r5r/p2k1ppp/p2b1n2/2pb4/8/1P2BN2/P1PN1PPP/R4RK1 w - | 3.0s | score_avg = 68.0 | elo_est = 2875 | diff_max = 36 | diff_avg = 10.0 | depth_avg = 31.0 | nodes_avg = 3145375 | %_same_move = 100.0
+FEN_25 1r5r/p2k1ppp/p2b1n2/2pb4/8/1P2BN2/P1PN1PPP/R4RK1 w - | 20.0s | score_avg = 68.0 | elo_est = 2975 | diff_max = 21 | diff_avg = 5.0 | depth_avg = 35.0 | nodes_avg = 18316592 | %_same_move = 100.0
+
+== FEN 26/49 ==
+FEN_26 r2q1rk1/p1p2p1p/8/3p1Qp1/3Pn3/4PP2/PP4PP/RN3RK1 b - | 0.2s | score_avg = 400.0 | elo_est = 1925 | diff_max = 62 | diff_avg = 14.0 | depth_avg = 19.0 | nodes_avg = 267372 | %_same_move = 100.0
+FEN_26 r2q1rk1/p1p2p1p/8/3p1Qp1/3Pn3/4PP2/PP4PP/RN3RK1 b - | 1.0s | score_avg = 418 | elo_est = 2300 | diff_max = 55 | diff_avg = 17.0 | depth_avg = 23.0 | nodes_avg = 1207898 | %_same_move = 100.0
+FEN_26 r2q1rk1/p1p2p1p/8/3p1Qp1/3Pn3/4PP2/PP4PP/RN3RK1 b - | 3.0s | score_avg = 449.0 | elo_est = 2600 | diff_max = 42 | diff_avg = 11.0 | depth_avg = 26.0 | nodes_avg = 3413487 | %_same_move = 100.0
+FEN_26 r2q1rk1/p1p2p1p/8/3p1Qp1/3Pn3/4PP2/PP4PP/RN3RK1 b - | 20.0s | score_avg = 459.0 | elo_est = 2875 | diff_max = 52 | diff_avg = 15.0 | depth_avg = 31.0 | nodes_avg = 21979629 | %_same_move = 100.0
+
+== FEN 27/49 ==
+FEN_27 r2q1rk1/p1p2p1p/3n4/3p1Qp1/3P4/4PP2/PP4PP/RN3RK1 w - | 0.2s | score_avg = 476.0 | elo_est = 1925 | diff_max = 57 | diff_avg = 12.0 | depth_avg = 19.0 | nodes_avg = 295336 | %_same_move = 100.0
+FEN_27 r2q1rk1/p1p2p1p/3n4/3p1Qp1/3P4/4PP2/PP4PP/RN3RK1 w - | 1.0s | score_avg = 471.0 | elo_est = 2300 | diff_max = 24 | diff_avg = 7.0 | depth_avg = 23.0 | nodes_avg = 1280802 | %_same_move = 100.0
+FEN_27 r2q1rk1/p1p2p1p/3n4/3p1Qp1/3P4/4PP2/PP4PP/RN3RK1 w - | 3.0s | score_avg = 460.0 | elo_est = 2600 | diff_max = 46 | diff_avg = 11.0 | depth_avg = 26.0 | nodes_avg = 3520027 | %_same_move = 100.0
+FEN_27 r2q1rk1/p1p2p1p/3n4/3p1Qp1/3P4/4PP2/PP4PP/RN3RK1 w - | 20.0s | score_avg = 467.0 | elo_est = 2925 | diff_max = 28 | diff_avg = 7.0 | depth_avg = 33.0 | nodes_avg = 21780784 | %_same_move = 100.0
+
+== FEN 28/49 ==
+FEN_28 r4rk1/pb3ppp/8/2P5/4N3/8/P4PPP/b2K1B1R b - | 0.2s | score_avg = -1263.0 | elo_est = 1625 | diff_max = 87 | diff_avg = 20.0 | depth_avg = 15.0 | nodes_avg = 294997 | %_same_move = 100.0
+FEN_28 r4rk1/pb3ppp/8/2P5/4N3/8/P4PPP/b2K1B1R b - | 1.0s | score_avg = -1307.0 | elo_est = 1925 | diff_max = 35 | diff_avg = 8.0 | depth_avg = 19.0 | nodes_avg = 1528729 | %_same_move = 100.0
+FEN_28 r4rk1/pb3ppp/8/2P5/4N3/8/P4PPP/b2K1B1R b - | 3.0s | score_avg = -1330.0 | elo_est = 2200 | diff_max = 99 | diff_avg = 26.0 | depth_avg = 22.0 | nodes_avg = 4731197 | %_same_move = 100.0
+FEN_28 r4rk1/pb3ppp/8/2P5/4N3/8/P4PPP/b2K1B1R b - | 20.0s | score_avg = -1423.0 | elo_est = 2700 | diff_max = 88 | diff_avg = 24.0 | depth_avg = 27.0 | nodes_avg = 33015322 | %_same_move = 100.0
+
+== FEN 29/49 ==
+FEN_29 r4rk1/p4ppp/8/2P5/4b3/8/P4PPP/b2K1B1R w - | 0.2s | score_avg = -1428.0 | elo_est = 1550 | diff_max = 135 | diff_avg = 28.0 | depth_avg = 14.0 | nodes_avg = 333363 | %_same_move = 70.0
+FEN_29 r4rk1/p4ppp/8/2P5/4b3/8/P4PPP/b2K1B1R w - | 1.0s | score_avg = -1371.0 | elo_est = 1850 | diff_max = 127 | diff_avg = 42.0 | depth_avg = 18.0 | nodes_avg = 1582674 | %_same_move = 100.0
+FEN_29 r4rk1/p4ppp/8/2P5/4b3/8/P4PPP/b2K1B1R w - | 3.0s | score_avg = -1364.0 | elo_est = 2000 | diff_max = 76 | diff_avg = 19.0 | depth_avg = 20.0 | nodes_avg = 4637849 | %_same_move = 90.0
+FEN_29 r4rk1/p4ppp/8/2P5/4b3/8/P4PPP/b2K1B1R w - | 20.0s | score_avg = -1442.0 | elo_est = 2500 | diff_max = 84 | diff_avg = 17.0 | depth_avg = 25.0 | nodes_avg = 33036172 | %_same_move = 100.0
+
+== FEN 30/49 ==
+FEN_30 3q1rk1/p1p1nppb/2p4p/1BN1P3/5B2/1P6/P1P2PPP/R2Q1RK1 b - | 0.2s | score_avg = 999.0 | elo_est = 1700 | diff_max = 49 | diff_avg = 14.0 | depth_avg = 16 | nodes_avg = 258446 | %_same_move = 100.0
+FEN_30 3q1rk1/p1p1nppb/2p4p/1BN1P3/5B2/1P6/P1P2PPP/R2Q1RK1 b - | 1.0s | score_avg = 1016.0 | elo_est = 2100 | diff_max = 33 | diff_avg = 7.0 | depth_avg = 21.0 | nodes_avg = 1306726 | %_same_move = 100.0
+FEN_30 3q1rk1/p1p1nppb/2p4p/1BN1P3/5B2/1P6/P1P2PPP/R2Q1RK1 b - | 3.0s | score_avg = 1026.0 | elo_est = 2400 | diff_max = 42 | diff_avg = 9.0 | depth_avg = 24.0 | nodes_avg = 3685224 | %_same_move = 100.0
+FEN_30 3q1rk1/p1p1nppb/2p4p/1BN1P3/5B2/1P6/P1P2PPP/R2Q1RK1 b - | 20.0s | score_avg = 1020.0 | elo_est = 2900 | diff_max = 27 | diff_avg = 8.0 | depth_avg = 32.0 | nodes_avg = 23872510 | %_same_move = 100.0
+
+== FEN 31/49 ==
+FEN_31 3q1rk1/p1p1nppb/7p/1pN1P3/5B2/1P6/P1P2PPP/R2Q1RK1 w - | 0.2s | score_avg = 1031.0 | elo_est = 1850 | diff_max = 20 | diff_avg = 6.0 | depth_avg = 18.0 | nodes_avg = 252245 | %_same_move = 100.0
+FEN_31 3q1rk1/p1p1nppb/7p/1pN1P3/5B2/1P6/P1P2PPP/R2Q1RK1 w - | 1.0s | score_avg = 1029.0 | elo_est = 2100 | diff_max = 30 | diff_avg = 7.0 | depth_avg = 21.0 | nodes_avg = 1135113 | %_same_move = 100.0
+FEN_31 3q1rk1/p1p1nppb/7p/1pN1P3/5B2/1P6/P1P2PPP/R2Q1RK1 w - | 3.0s | score_avg = 1023.0 | elo_est = 2400 | diff_max = 44 | diff_avg = 10.0 | depth_avg = 24.0 | nodes_avg = 3490734 | %_same_move = 100.0
+FEN_31 3q1rk1/p1p1nppb/7p/1pN1P3/5B2/1P6/P1P2PPP/R2Q1RK1 w - | 20.0s | score_avg = 1029.0 | elo_est = 2875 | diff_max = 28 | diff_avg = 8.0 | depth_avg = 31.0 | nodes_avg = 23648849 | %_same_move = 100.0
+
+== FEN 32/49 ==
+FEN_32 r2qk2r/1ppb1ppp/4pn2/p3B3/2BP4/P1RQP3/1P3PPP/5RK1 b kq | 0.2s | score_avg = 248.0 | elo_est = 1700 | diff_max = 43 | diff_avg = 12.0 | depth_avg = 16.0 | nodes_avg = 231380 | %_same_move = 100.0
+FEN_32 r2qk2r/1ppb1ppp/4pn2/p3B3/2BP4/P1RQP3/1P3PPP/5RK1 b kq | 1.0s | score_avg = 265.0 | elo_est = 2000 | diff_max = 28 | diff_avg = 8.0 | depth_avg = 20.0 | nodes_avg = 1049029 | %_same_move = 100.0
+FEN_32 r2qk2r/1ppb1ppp/4pn2/p3B3/2BP4/P1RQP3/1P3PPP/5RK1 b kq | 3.0s | score_avg = 285.0 | elo_est = 2300 | diff_max = 42 | diff_avg = 7.0 | depth_avg = 23.0 | nodes_avg = 2878145 | %_same_move = 100.0
+FEN_32 r2qk2r/1ppb1ppp/4pn2/p3B3/2BP4/P1RQP3/1P3PPP/5RK1 b kq | 20.0s | score_avg = 284.0 | elo_est = 2825 | diff_max = 34 | diff_avg = 8.0 | depth_avg = 29.0 | nodes_avg = 20136385 | %_same_move = 100.0
+
+== FEN 33/49 ==
+FEN_33 r2q1rk1/1ppb1ppp/4pn2/p3B3/2BP4/P1RQP3/1P3PPP/5RK1 w - | 0.2s | score_avg = 299.0 | elo_est = 1925 | diff_max = 27 | diff_avg = 6.0 | depth_avg = 19.0 | nodes_avg = 259958 | %_same_move = 100.0
+FEN_33 r2q1rk1/1ppb1ppp/4pn2/p3B3/2BP4/P1RQP3/1P3PPP/5RK1 w - | 1.0s | score_avg = 307.0 | elo_est = 2000 | diff_max = 30 | diff_avg = 9.0 | depth_avg = 20.0 | nodes_avg = 1077527 | %_same_move = 100.0
+FEN_33 r2q1rk1/1ppb1ppp/4pn2/p3B3/2BP4/P1RQP3/1P3PPP/5RK1 w - | 3.0s | score_avg = 300.0 | elo_est = 2400 | diff_max = 29 | diff_avg = 7.0 | depth_avg = 24.0 | nodes_avg = 2996240 | %_same_move = 100.0
+FEN_33 r2q1rk1/1ppb1ppp/4pn2/p3B3/2BP4/P1RQP3/1P3PPP/5RK1 w - | 20.0s | score_avg = 299.0 | elo_est = 2850 | diff_max = 32 | diff_avg = 9.0 | depth_avg = 30.0 | nodes_avg = 20495993 | %_same_move = 100.0
+
+== FEN 34/49 ==
+FEN_34 r4rk1/3bbppp/q1pp1n2/1pn1p3/1P2P3/2NPBN1P/B1P2PP1/R2Q1RK1 b - | 0.2s | score_avg = 82.0 | elo_est = 1700 | diff_max = 43 | diff_avg = 14.0 | depth_avg = 16.0 | nodes_avg = 245815 | %_same_move = 100.0
+FEN_34 r4rk1/3bbppp/q1pp1n2/1pn1p3/1P2P3/2NPBN1P/B1P2PP1/R2Q1RK1 b - | 1.0s | score_avg = 79.0 | elo_est = 2200 | diff_max = 36 | diff_avg = 12.0 | depth_avg = 22.0 | nodes_avg = 1109758 | %_same_move = 100.0
+FEN_34 r4rk1/3bbppp/q1pp1n2/1pn1p3/1P2P3/2NPBN1P/B1P2PP1/R2Q1RK1 b - | 3.0s | score_avg = 76 | elo_est = 2700 | diff_max = 35 | diff_avg = 10.0 | depth_avg = 27.0 | nodes_avg = 3425582 | %_same_move = 100.0
+FEN_34 r4rk1/3bbppp/q1pp1n2/1pn1p3/1P2P3/2NPBN1P/B1P2PP1/R2Q1RK1 b - | 20.0s | score_avg = 77.0 | elo_est = 2950 | diff_max = 26 | diff_avg = 8.0 | depth_avg = 34.0 | nodes_avg = 20115919 | %_same_move = 100.0
+
+== FEN 35/49 ==
+FEN_35 r4rk1/1n1bbppp/q1pp1n2/1p2p3/1P2P3/2NPBN1P/B1P2PP1/R2Q1RK1 w - | 0.2s | score_avg = 566.0 | elo_est = 1700 | diff_max = 43 | diff_avg = 10.0 | depth_avg = 16 | nodes_avg = 238789 | %_same_move = 100.0
+FEN_35 r4rk1/1n1bbppp/q1pp1n2/1p2p3/1P2P3/2NPBN1P/B1P2PP1/R2Q1RK1 w - | 1.0s | score_avg = 553.0 | elo_est = 2100 | diff_max = 31 | diff_avg = 7.0 | depth_avg = 21.0 | nodes_avg = 1167816 | %_same_move = 100.0
+FEN_35 r4rk1/1n1bbppp/q1pp1n2/1p2p3/1P2P3/2NPBN1P/B1P2PP1/R2Q1RK1 w - | 3.0s | score_avg = 563.0 | elo_est = 2400 | diff_max = 40 | diff_avg = 10.0 | depth_avg = 24.0 | nodes_avg = 3213953 | %_same_move = 100.0
+FEN_35 r4rk1/1n1bbppp/q1pp1n2/1p2p3/1P2P3/2NPBN1P/B1P2PP1/R2Q1RK1 w - | 20.0s | score_avg = 564.0 | elo_est = 2875 | diff_max = 30 | diff_avg = 7.0 | depth_avg = 31.0 | nodes_avg = 21788630 | %_same_move = 100.0
+
+== FEN 36/49 ==
+FEN_36 3q1rk1/2p2pp1/2pbbp1p/1P1p4/3P4/4PN1P/r2N1PP1/1R1Q1RK1 b - | 0.2s | score_avg = -466.0 | elo_est = 1775 | diff_max = 85 | diff_avg = 26.0 | depth_avg = 17.0 | nodes_avg = 241374 | %_same_move = 100.0
+FEN_36 3q1rk1/2p2pp1/2pbbp1p/1P1p4/3P4/4PN1P/r2N1PP1/1R1Q1RK1 b - | 1.0s | score_avg = -488.0 | elo_est = 2200 | diff_max = 32 | diff_avg = 9.0 | depth_avg = 22.0 | nodes_avg = 1192647 | %_same_move = 100.0
+FEN_36 3q1rk1/2p2pp1/2pbbp1p/1P1p4/3P4/4PN1P/r2N1PP1/1R1Q1RK1 b - | 3.0s | score_avg = -499.0 | elo_est = 2600 | diff_max = 32 | diff_avg = 9.0 | depth_avg = 26.0 | nodes_avg = 3357150 | %_same_move = 100.0
+FEN_36 3q1rk1/2p2pp1/2pbbp1p/1P1p4/3P4/4PN1P/r2N1PP1/1R1Q1RK1 b - | 20.0s | score_avg = -513.0 | elo_est = 2900 | diff_max = 34 | diff_avg = 11.0 | depth_avg = 32.0 | nodes_avg = 17865662 | %_same_move = 100.0
+
+== FEN 37/49 ==
+FEN_37 3q1rk1/2p2pp1/3bbp1p/1p1p4/3P4/4PN1P/r2N1PP1/1R1Q1RK1 w - | 0.2s | score_avg = -253.0 | elo_est = 1775 | diff_max = 28 | diff_avg = 7.0 | depth_avg = 17.0 | nodes_avg = 252869 | %_same_move = 100.0
+FEN_37 3q1rk1/2p2pp1/3bbp1p/1p1p4/3P4/4PN1P/r2N1PP1/1R1Q1RK1 w - | 1.0s | score_avg = -338 | elo_est = 2300 | diff_max = 19 | diff_avg = 5.0 | depth_avg = 23.0 | nodes_avg = 1216842 | %_same_move = 100.0
+FEN_37 3q1rk1/2p2pp1/3bbp1p/1p1p4/3P4/4PN1P/r2N1PP1/1R1Q1RK1 w - | 3.0s | score_avg = -349.0 | elo_est = 2825 | diff_max = 50 | diff_avg = 11.0 | depth_avg = 29.0 | nodes_avg = 3660161 | %_same_move = 100.0
+FEN_37 3q1rk1/2p2pp1/3bbp1p/1p1p4/3P4/4PN1P/r2N1PP1/1R1Q1RK1 w - | 20.0s | score_avg = -377.0 | elo_est = 3000 | diff_max = 35 | diff_avg = 9.0 | depth_avg = 36.0 | nodes_avg = 23442808 | %_same_move = 100.0
+
+== FEN 38/49 ==
+FEN_38 r1b1k3/p1q1bNp1/3p1n1p/4p3/3pP3/1BPP4/P4PPP/R1BQ1RK1 b q | 0.2s | score_avg = 859.0 | elo_est = 1700 | diff_max = 46 | diff_avg = 15.0 | depth_avg = 16.0 | nodes_avg = 227977 | %_same_move = 100.0
+FEN_38 r1b1k3/p1q1bNp1/3p1n1p/4p3/3pP3/1BPP4/P4PPP/R1BQ1RK1 b q | 1.0s | score_avg = 888.0 | elo_est = 2100 | diff_max = 51 | diff_avg = 16.0 | depth_avg = 21.0 | nodes_avg = 1150358 | %_same_move = 100.0
+FEN_38 r1b1k3/p1q1bNp1/3p1n1p/4p3/3pP3/1BPP4/P4PPP/R1BQ1RK1 b q | 3.0s | score_avg = 894 | elo_est = 2400 | diff_max = 31 | diff_avg = 7.0 | depth_avg = 24.0 | nodes_avg = 3382305 | %_same_move = 100.0
+FEN_38 r1b1k3/p1q1bNp1/3p1n1p/4p3/3pP3/1BPP4/P4PPP/R1BQ1RK1 b q | 20.0s | score_avg = 904.0 | elo_est = 2800 | diff_max = 42 | diff_avg = 14.0 | depth_avg = 28 | nodes_avg = 21857207 | %_same_move = 100.0
+
+== FEN 39/49 ==
+FEN_39 r1b1k3/p3bNp1/3p1n1p/4p3/3pP3/1BqP4/P4PPP/R1BQ1RK1 w q | 0.2s | score_avg = 1042 | elo_est = 1625 | diff_max = 66 | diff_avg = 16.0 | depth_avg = 15.0 | nodes_avg = 91180 | %_same_move = 100.0
+FEN_39 r1b1k3/p3bNp1/3p1n1p/4p3/3pP3/1BqP4/P4PPP/R1BQ1RK1 w q | 1.0s | score_avg = 1067.0 | elo_est = 1925 | diff_max = 59 | diff_avg = 19.0 | depth_avg = 19.0 | nodes_avg = 635014 | %_same_move = 100.0
+FEN_39 r1b1k3/p3bNp1/3p1n1p/4p3/3pP3/1BqP4/P4PPP/R1BQ1RK1 w q | 3.0s | score_avg = 1080.0 | elo_est = 2300 | diff_max = 23 | diff_avg = 6.0 | depth_avg = 23.0 | nodes_avg = 3170530 | %_same_move = 100.0
+FEN_39 r1b1k3/p3bNp1/3p1n1p/4p3/3pP3/1BqP4/P4PPP/R1BQ1RK1 w q | 20.0s | score_avg = 1109.0 | elo_est = 2850 | diff_max = 34 | diff_avg = 9.0 | depth_avg = 30.0 | nodes_avg = 26655894 | %_same_move = 100.0
+
+== FEN 40/49 ==
+FEN_40 r1bq1rk1/1pB4p/p3pp2/6p1/2QPn3/P3PN2/1PP2PPP/R3K2R b KQ | 0.2s | score_avg = 245.0 | elo_est = 1850 | diff_max = 27 | diff_avg = 7.0 | depth_avg = 18.0 | nodes_avg = 252738 | %_same_move = 90.0
+FEN_40 r1bq1rk1/1pB4p/p3pp2/6p1/2QPn3/P3PN2/1PP2PPP/R3K2R b KQ | 1.0s | score_avg = 238.0 | elo_est = 2100 | diff_max = 53 | diff_avg = 10.0 | depth_avg = 21.0 | nodes_avg = 1193250 | %_same_move = 70.0
+FEN_40 r1bq1rk1/1pB4p/p3pp2/6p1/2QPn3/P3PN2/1PP2PPP/R3K2R b KQ | 3.0s | score_avg = 264.0 | elo_est = 2500 | diff_max = 33 | diff_avg = 6.0 | depth_avg = 25.0 | nodes_avg = 3452635 | %_same_move = 70.0
+FEN_40 r1bq1rk1/1pB4p/p3pp2/6p1/2QPn3/P3PN2/1PP2PPP/R3K2R b KQ | 20.0s | score_avg = 259 | elo_est = 2950 | diff_max = 46 | diff_avg = 11 | depth_avg = 34.0 | nodes_avg = 21577008 | %_same_move = 80.0
+
+== FEN 41/49 ==
+FEN_41 r1b2rk1/1pBq3p/p3pp2/6p1/2QPn3/P3PN2/1PP2PPP/R3K2R w KQ | 0.2s | score_avg = 274 | elo_est = 2000 | diff_max = 29 | diff_avg = 8.0 | depth_avg = 20.0 | nodes_avg = 265405 | %_same_move = 100.0
+FEN_41 r1b2rk1/1pBq3p/p3pp2/6p1/2QPn3/P3PN2/1PP2PPP/R3K2R w KQ | 1.0s | score_avg = 271.0 | elo_est = 2500 | diff_max = 36 | diff_avg = 8.0 | depth_avg = 25 | nodes_avg = 1211231 | %_same_move = 100.0
+FEN_41 r1b2rk1/1pBq3p/p3pp2/6p1/2QPn3/P3PN2/1PP2PPP/R3K2R w KQ | 3.0s | score_avg = 279.0 | elo_est = 2600 | diff_max = 40 | diff_avg = 9.0 | depth_avg = 26.0 | nodes_avg = 3460143 | %_same_move = 100.0
+FEN_41 r1b2rk1/1pBq3p/p3pp2/6p1/2QPn3/P3PN2/1PP2PPP/R3K2R w KQ | 20.0s | score_avg = 262.0 | elo_est = 2875 | diff_max = 56 | diff_avg = 16.0 | depth_avg = 31.0 | nodes_avg = 18550299 | %_same_move = 100.0
+
+== FEN 42/49 ==
+FEN_42 5rk1/ppp2ppp/8/5Nq1/8/4Q3/PPP2PPP/3K1B1R b - | 0.2s | score_avg = 697.0 | elo_est = 1700 | diff_max = 36 | diff_avg = 10.0 | depth_avg = 16.0 | nodes_avg = 236536 | %_same_move = 100.0
+FEN_42 5rk1/ppp2ppp/8/5Nq1/8/4Q3/PPP2PPP/3K1B1R b - | 1.0s | score_avg = 741.0 | elo_est = 2400 | diff_max = 25 | diff_avg = 5.0 | depth_avg = 24.0 | nodes_avg = 1288502 | %_same_move = 100.0
+FEN_42 5rk1/ppp2ppp/8/5Nq1/8/4Q3/PPP2PPP/3K1B1R b - | 3.0s | score_avg = 744.0 | elo_est = 2800 | diff_max = 13 | diff_avg = 3.0 | depth_avg = 28.0 | nodes_avg = 3494707 | %_same_move = 100.0
+FEN_42 5rk1/ppp2ppp/8/5Nq1/8/4Q3/PPP2PPP/3K1B1R b - | 20.0s | score_avg = 752 | elo_est = 2950 | diff_max = 20 | diff_avg = 4 | depth_avg = 34.0 | nodes_avg = 22186461 | %_same_move = 100.0
+
+== FEN 43/49 ==
+FEN_43 3r2k1/ppp2ppp/8/5Nq1/8/4Q3/PPP2PPP/3K1B1R w - | 0.2s | score_avg = 797.0 | elo_est = 1775 | diff_max = 24 | diff_avg = 7.0 | depth_avg = 17.0 | nodes_avg = 257810 | %_same_move = 100.0
+FEN_43 3r2k1/ppp2ppp/8/5Nq1/8/4Q3/PPP2PPP/3K1B1R w - | 1.0s | score_avg = 803.0 | elo_est = 2100 | diff_max = 26 | diff_avg = 6.0 | depth_avg = 21.0 | nodes_avg = 1202085 | %_same_move = 100.0
+FEN_43 3r2k1/ppp2ppp/8/5Nq1/8/4Q3/PPP2PPP/3K1B1R w - | 3.0s | score_avg = 809.0 | elo_est = 2500 | diff_max = 32 | diff_avg = 8.0 | depth_avg = 25.0 | nodes_avg = 3680386 | %_same_move = 100.0
+FEN_43 3r2k1/ppp2ppp/8/5Nq1/8/4Q3/PPP2PPP/3K1B1R w - | 20.0s | score_avg = 815.0 | elo_est = 2900 | diff_max = 33 | diff_avg = 9.0 | depth_avg = 32.0 | nodes_avg = 24873278 | %_same_move = 100.0
+
+== FEN 44/49 ==
+FEN_44 r4rk1/p1p1nppp/1p1q4/3pR3/3P4/2P2Q2/PBP2PPP/R5K1 b - | 0.2s | score_avg = -3.0 | elo_est = 2200 | diff_max = 13 | diff_avg = 3.0 | depth_avg = 22.0 | nodes_avg = 261011 | %_same_move = 50.0
+FEN_44 r4rk1/p1p1nppp/1p1q4/3pR3/3P4/2P2Q2/PBP2PPP/R5K1 b - | 1.0s | score_avg = 0 | elo_est = 2900 | diff_max = 0 | diff_avg = 0 | depth_avg = 32.0 | nodes_avg = 1174554 | %_same_move = 90.0
+FEN_44 r4rk1/p1p1nppp/1p1q4/3pR3/3P4/2P2Q2/PBP2PPP/R5K1 b - | 3.0s | score_avg = 0 | elo_est = 3000+ | diff_max = 0 | diff_avg = 0 | depth_avg = 37.0 | nodes_avg = 2923599 | %_same_move = 100.0
+FEN_44 r4rk1/p1p1nppp/1p1q4/3pR3/3P4/2P2Q2/PBP2PPP/R5K1 b - | 20.0s | score_avg = 0 | elo_est = 3000+ | diff_max = 0 | diff_avg = 0 | depth_avg = 45.0 | nodes_avg = 20111262 | %_same_move = 90.0
+
+== FEN 45/49 ==
+FEN_45 r4rk1/p1p1nppp/1p4q1/3pR3/3P4/2P2Q2/PBP2PPP/R5K1 w - | 0.2s | score_avg = 653.0 | elo_est = 1775 | diff_max = 37 | diff_avg = 9.0 | depth_avg = 17.0 | nodes_avg = 154108 | %_same_move = 100.0
+FEN_45 r4rk1/p1p1nppp/1p4q1/3pR3/3P4/2P2Q2/PBP2PPP/R5K1 w - | 1.0s | score_avg = 697.0 | elo_est = 2200 | diff_max = 61 | diff_avg = 16.0 | depth_avg = 22.0 | nodes_avg = 1133462 | %_same_move = 100.0
+FEN_45 r4rk1/p1p1nppp/1p4q1/3pR3/3P4/2P2Q2/PBP2PPP/R5K1 w - | 3.0s | score_avg = 731.0 | elo_est = 2600 | diff_max = 33 | diff_avg = 7.0 | depth_avg = 26.0 | nodes_avg = 3065091 | %_same_move = 100.0
+FEN_45 r4rk1/p1p1nppp/1p4q1/3pR3/3P4/2P2Q2/PBP2PPP/R5K1 w - | 20.0s | score_avg = 728 | elo_est = 2950 | diff_max = 21 | diff_avg = 5.0 | depth_avg = 34.0 | nodes_avg = 21457894 | %_same_move = 100.0
+
+== FEN 46/49 ==
+FEN_46 r3k2r/pp1n2p1/3b1q1p/1BpPp3/Q3Pp2/5N2/PP3PPP/R4RK1 b kq | 0.2s | score_avg = 181.0 | elo_est = 1700 | diff_max = 66 | diff_avg = 15.0 | depth_avg = 16.0 | nodes_avg = 191458 | %_same_move = 100.0
+FEN_46 r3k2r/pp1n2p1/3b1q1p/1BpPp3/Q3Pp2/5N2/PP3PPP/R4RK1 b kq | 1.0s | score_avg = 194.0 | elo_est = 2200 | diff_max = 40 | diff_avg = 9.0 | depth_avg = 22.0 | nodes_avg = 1086345 | %_same_move = 100.0
+FEN_46 r3k2r/pp1n2p1/3b1q1p/1BpPp3/Q3Pp2/5N2/PP3PPP/R4RK1 b kq | 3.0s | score_avg = 201.0 | elo_est = 2700 | diff_max = 30 | diff_avg = 9.0 | depth_avg = 27.0 | nodes_avg = 3187845 | %_same_move = 100.0
+FEN_46 r3k2r/pp1n2p1/3b1q1p/1BpPp3/Q3Pp2/5N2/PP3PPP/R4RK1 b kq | 20.0s | score_avg = 191.0 | elo_est = 2950 | diff_max = 32 | diff_avg = 8.0 | depth_avg = 34 | nodes_avg = 19739417 | %_same_move = 100.0
+
+== FEN 47/49 ==
+FEN_47 r3k2r/pp1n1qp1/3b3p/1BpPp3/Q3Pp2/5N2/PP3PPP/R4RK1 w kq | 0.2s | score_avg = 407.0 | elo_est = 1775 | diff_max = 71 | diff_avg = 17.0 | depth_avg = 17 | nodes_avg = 235803 | %_same_move = 100.0
+FEN_47 r3k2r/pp1n1qp1/3b3p/1BpPp3/Q3Pp2/5N2/PP3PPP/R4RK1 w kq | 1.0s | score_avg = 437.0 | elo_est = 2000 | diff_max = 53 | diff_avg = 13.0 | depth_avg = 20.0 | nodes_avg = 1117844 | %_same_move = 100.0
+FEN_47 r3k2r/pp1n1qp1/3b3p/1BpPp3/Q3Pp2/5N2/PP3PPP/R4RK1 w kq | 3.0s | score_avg = 462 | elo_est = 2400 | diff_max = 45 | diff_avg = 10.0 | depth_avg = 24.0 | nodes_avg = 3277581 | %_same_move = 100.0
+FEN_47 r3k2r/pp1n1qp1/3b3p/1BpPp3/Q3Pp2/5N2/PP3PPP/R4RK1 w kq | 20.0s | score_avg = 487 | elo_est = 2850 | diff_max = 39 | diff_avg = 11.0 | depth_avg = 30.0 | nodes_avg = 21598884 | %_same_move = 100.0
+
+== FEN 48/49 ==
+FEN_48 r3k2r/pq3ppp/2n1p3/2bpPn2/1Pp2B2/2P2N2/P1QN1PPP/R4RK1 b kq | 0.2s | score_avg = -55.0 | elo_est = 1775 | diff_max = 40 | diff_avg = 10.0 | depth_avg = 17.0 | nodes_avg = 227405 | %_same_move = 100.0
+FEN_48 r3k2r/pq3ppp/2n1p3/2bpPn2/1Pp2B2/2P2N2/P1QN1PPP/R4RK1 b kq | 1.0s | score_avg = -82.0 | elo_est = 2200 | diff_max = 48 | diff_avg = 10.0 | depth_avg = 22 | nodes_avg = 1095305 | %_same_move = 100.0
+FEN_48 r3k2r/pq3ppp/2n1p3/2bpPn2/1Pp2B2/2P2N2/P1QN1PPP/R4RK1 b kq | 3.0s | score_avg = -90.0 | elo_est = 2500 | diff_max = 30 | diff_avg = 6.0 | depth_avg = 25.0 | nodes_avg = 3209082 | %_same_move = 100.0
+FEN_48 r3k2r/pq3ppp/2n1p3/2bpPn2/1Pp2B2/2P2N2/P1QN1PPP/R4RK1 b kq | 20.0s | score_avg = -84.0 | elo_est = 3000 | diff_max = 39 | diff_avg = 8.0 | depth_avg = 36.0 | nodes_avg = 20819756 | %_same_move = 100.0
+
+== FEN 49/49 ==
+FEN_49 r3k2r/pq3ppp/1bn1p3/3pPn2/1Pp2B2/2P2N2/P1QN1PPP/R4RK1 w kq | 0.2s | score_avg = -76.0 | elo_est = 2400 | diff_max = 15 | diff_avg = 4.0 | depth_avg = 24.0 | nodes_avg = 245671 | %_same_move = 100.0
+FEN_49 r3k2r/pq3ppp/1bn1p3/3pPn2/1Pp2B2/2P2N2/P1QN1PPP/R4RK1 w kq | 1.0s | score_avg = -72 | elo_est = 2700 | diff_max = 21 | diff_avg = 5.0 | depth_avg = 27.0 | nodes_avg = 1122804 | %_same_move = 100.0
+FEN_49 r3k2r/pq3ppp/1bn1p3/3pPn2/1Pp2B2/2P2N2/P1QN1PPP/R4RK1 w kq | 3.0s | score_avg = -70.0 | elo_est = 2825 | diff_max = 25 | diff_avg = 6.0 | depth_avg = 29.0 | nodes_avg = 3253219 | %_same_move = 100.0
+FEN_49 r3k2r/pq3ppp/1bn1p3/3pPn2/1Pp2B2/2P2N2/P1QN1PPP/R4RK1 w kq | 20.0s | score_avg = -74.0 | elo_est = 2975 | diff_max = 24 | diff_avg = 7.0 | depth_avg = 35.0 | nodes_avg = 20450685 | %_same_move = 100.0
