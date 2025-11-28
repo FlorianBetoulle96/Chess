@@ -8,7 +8,7 @@ def b_main_file():
 
     # --- Chemin vers Stockfish ---
     STOCKFISH_PATH = "Files/stockfish.exe" #path pour local (Windows)
-    stockfish = Stockfish(STOCKFISH_PATH)
+    stockfish = Stockfish(path=STOCKFISH_PATH)
 
     def evaluate_position(fen):
         stockfish.update_engine_parameters({"UCI_Elo": 2800})
