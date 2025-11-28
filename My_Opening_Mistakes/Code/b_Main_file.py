@@ -8,8 +8,8 @@ def b_main_file():
 
     # --- Chemin vers Stockfish ---
     # STOCKFISH_PATH = "Files/stockfish.exe" #path pour local (Windows)
-    STOCKFISH_PATH = os.path.join(os.path.dirname(__file__), "stockfish-ubuntu") #path pour Streamlit (Linux)
-    stockfish = Stockfish(STOCKFISH_PATH)
+    stockfish = Stockfish()
+    # stockfish = Stockfish(STOCKFISH_PATH)
 
     def evaluate_position(fen):
         stockfish.update_engine_parameters({"UCI_Elo": 2800})
