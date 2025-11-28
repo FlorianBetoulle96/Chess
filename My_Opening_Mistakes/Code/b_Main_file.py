@@ -7,8 +7,8 @@ def b_main_file():
     os.makedirs("Files", exist_ok=True)
 
     # --- Chemin vers Stockfish ---
-    # STOCKFISH_PATH = "Files/stockfish.exe"
-    STOCKFISH_PATH = "stockfish-ubuntu"
+    # STOCKFISH_PATH = "Files/stockfish.exe" #path pour local (Windows)
+    STOCKFISH_PATH = os.path.join(os.path.dirname(__file__), "stockfish-ubuntu") #path pour Streamlit (Linux)
     stockfish = Stockfish(STOCKFISH_PATH)
 
     def evaluate_position(fen):
