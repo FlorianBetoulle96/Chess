@@ -3,13 +3,19 @@ import chess.pgn
 import io
 import os
 
-def a_extraction(pgn_file, player_name="Floflolasticow", min_move=3, max_move=15, output_path="Files/games_fen.txt"):
+def a_extraction(pgn_file, player_name="Floflolasticow", min_move=3, max_move=15, output_path="../Files/games_fen.txt"):
     """
-    pgn_file : soit un chemin vers un fichier PGN, soit un flux texte (UploadedFile Streamlit)
-    output_path : chemin où enregistrer le fichier games_fen.txt
+    Extrait les positions FEN et les coups d'un fichier PGN pour un joueur donné.
+
+    Args:
+        pgn_file: chemin vers un fichier PGN ou flux texte (UploadedFile Streamlit)
+        player_name: nom du joueur pour identifier la couleur
+        min_move: numéro du premier coup à conserver
+        max_move: numéro du dernier coup à conserver
+        output_path: chemin du fichier de sortie
     """
 
-    # --- Création du dossier si nécessaire ---
+    # --- Création du dossier si besoin ---
     os.makedirs(os.path.dirname(output_path), exist_ok=True)
 
     # --- Gestion du flux ---
@@ -30,6 +36,7 @@ def a_extraction(pgn_file, player_name="Floflolasticow", min_move=3, max_move=15
         if game is None:
             break
 
+        # Identifier la couleur
         white = game.headers.get("White", "")
         black = game.headers.get("Black", "")
         color = "Unknown"
