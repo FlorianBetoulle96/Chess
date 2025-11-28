@@ -1,5 +1,5 @@
 chess
-io
+# io
 stockfish
 re
 duckdb
