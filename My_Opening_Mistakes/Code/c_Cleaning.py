@@ -1,6 +1,10 @@
 import re
+import os
 
 def c_cleaning():
+    # --- Création du dossier Files si nécessaire ---
+    os.makedirs("Files", exist_ok=True)
+
     def extract_eval(val):
         """Extrait juste le nombre de l'évaluation"""
         match = re.search(r"-?\d+(\.\d+)?", val)
@@ -41,6 +45,7 @@ def c_cleaning():
                     f_out.write(f"# Erreur sur la ligne : {line_strip} ({e})\n")
 
     final_cleaning(
-        input_file="../Files/final.txt",
-        output_file="../Files/final_cleaned.csv"
+        input_file="Files/final.txt",
+        output_file="Files/final_cleaned.csv"
     )
+    print("✅ Cleaning terminé, fichier final_cleaned.csv créé dans Files/")

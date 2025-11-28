@@ -1,9 +1,13 @@
 import chess
 from stockfish import Stockfish
+import os
 
-def b_main_file() :
+def b_main_file():
+    # --- Création du dossier Files si nécessaire ---
+    os.makedirs("Files", exist_ok=True)
 
-    STOCKFISH_PATH = r"../Files/stockfish.exe"
+    # --- Chemin vers Stockfish ---
+    STOCKFISH_PATH = "Files/stockfish.exe"  # assure-toi que stockfish.exe est dans ce dossier
     stockfish = Stockfish(STOCKFISH_PATH)
 
     def evaluate_position(fen):
@@ -13,9 +17,16 @@ def b_main_file() :
         score = stockfish.get_evaluation()
         return best_move_long, score
 
-    input_file = "../Files/games_fen.txt"
-    output_file = "../Files/final.txt"
+    # --- Fichiers d'entrée et de sortie ---
+    input_file = "Files/games_fen.txt"
+    output_file = "Files/final.txt"
 
+    # Si le fichier d'entrée n'existe pas, on arrête
+    if not os.path.exists(input_file):
+        print(f"❌ Fichier d'entrée {input_file} introuvable.")
+        return
+
+    # --- Lecture et analyse ---
     with open(input_file, "r", encoding="utf-8") as f_in, \
          open(output_file, "w", encoding="utf-8") as f_out:
 
@@ -30,15 +41,15 @@ def b_main_file() :
                 fen = parts[0]
                 my_move_san = parts[1]
 
-                # meilleur coup de stockfish en long
+                # meilleur coup de Stockfish
                 best_move_sf, eval_after_sf = evaluate_position(fen)
 
-                # conversion de TON coup vers notation longue
+                # conversion du coup de l'utilisateur vers notation UCI
                 board = chess.Board(fen)
                 move_obj = board.parse_san(my_move_san)
                 my_move_long = move_obj.uci()
 
-                # évaluation après ton coup
+                # évaluation après le coup de l'utilisateur
                 board.push(move_obj)
                 fen_after_my_move = board.fen()
                 _, eval_after_my_move = evaluate_position(fen_after_my_move)

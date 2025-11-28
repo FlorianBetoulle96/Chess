@@ -3,15 +3,21 @@ import chess
 import chess.svg
 import pandas as pd
 import streamlit.components.v1 as components
-
+import os
 
 def e_streamlit_full():
+    # --- Création du dossier Files si nécessaire ---
+    os.makedirs("Files", exist_ok=True)
 
     # --- Configuration de la page ---
     st.set_page_config(page_title="Analyse FEN", layout="wide")
     
     # --- Chargement du CSV ---
-    CSV_PATH = "../Files/worst_moves.csv"
+    CSV_PATH = "Files/worst_moves.csv"
+    if not os.path.exists(CSV_PATH):
+        st.warning("Le fichier worst_moves.csv n'a pas encore été généré.")
+        return
+    
     df = pd.read_csv(CSV_PATH, header=0, encoding="utf-8-sig", sep=",", skipinitialspace=True)
 
     # --- Ajout d'une colonne visible ---
@@ -40,27 +46,24 @@ def e_streamlit_full():
 
     # --- Création du plateau ---
     board = chess.Board(fen)
-    if turn.strip().lower() == "b":
-        board.turn = chess.BLACK
-    else:
-        board.turn = chess.WHITE
+    board.turn = chess.WHITE if turn.strip().lower() == "w" else chess.BLACK
 
     # --- Flèches ---
-    my_arrow = stock_arrow = None
+    arrows = []
     if my_move:
-        my_move_obj = board.parse_san(my_move)
-        my_arrow = chess.svg.Arrow(my_move_obj.from_square, my_move_obj.to_square, color="#cc0000")
+        try:
+            my_move_obj = board.parse_san(my_move)
+            arrows.append(chess.svg.Arrow(my_move_obj.from_square, my_move_obj.to_square, color="#cc0000"))
+        except:
+            pass
     if stockfish_move:
-        stock_move_obj = board.parse_san(stockfish_move)
-        stock_arrow = chess.svg.Arrow(stock_move_obj.from_square, stock_move_obj.to_square, color="#00cc44")
+        try:
+            stock_move_obj = board.parse_san(stockfish_move)
+            arrows.append(chess.svg.Arrow(stock_move_obj.from_square, stock_move_obj.to_square, color="#00cc44"))
+        except:
+            pass
 
     # --- Plateau avec flèches ---
-    arrows = []
-    if my_arrow:
-        arrows.append(my_arrow)
-    if stock_arrow:
-        arrows.append(stock_arrow)
-
     svg_code = chess.svg.board(
         board=board,
         size=600,

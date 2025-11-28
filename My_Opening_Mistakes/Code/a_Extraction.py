@@ -1,19 +1,22 @@
 import chess
 import chess.pgn
 import io
+import os
 
-def a_extraction(pgn_file, player_name="Floflolasticow", min_move=3, max_move=15):
+def a_extraction(pgn_file, player_name="Floflolasticow", min_move=3, max_move=15, output_path="Files/games_fen.txt"):
     """
     pgn_file : soit un chemin vers un fichier PGN, soit un flux texte (UploadedFile Streamlit)
+    output_path : chemin où enregistrer le fichier games_fen.txt
     """
+
+    # --- Création du dossier si nécessaire ---
+    os.makedirs(os.path.dirname(output_path), exist_ok=True)
 
     # --- Gestion du flux ---
     if isinstance(pgn_file, str):
-        # Si c'est un chemin
         pgn_io = open(pgn_file, encoding="utf-8")
         close_file = True
     else:
-        # Sinon, c'est un flux binaire/textuel (ex: UploadedFile)
         content = pgn_file.read()
         if isinstance(content, bytes):
             content = content.decode("utf-8")
@@ -27,7 +30,6 @@ def a_extraction(pgn_file, player_name="Floflolasticow", min_move=3, max_move=15
         if game is None:
             break
 
-        # Identifier la couleur
         white = game.headers.get("White", "")
         black = game.headers.get("Black", "")
         color = "Unknown"
@@ -54,12 +56,12 @@ def a_extraction(pgn_file, player_name="Floflolasticow", min_move=3, max_move=15
         pgn_io.close()
 
     # --- Export ---
-    with open("../Files/games_fen.txt", "w", encoding="utf-8") as f:
+    with open(output_path, "w", encoding="utf-8") as f:
         for idx, game_data in enumerate(results, 1):
             f.write(f"Game {idx} - {game_data['color']}\n")
             for fen, next_move in game_data["moves_fens"]:
                 f.write(f"{fen} / {next_move}\n")
             f.write("\n")
 
-    print("✅ Export terminé dans games_fens.txt")
+    print(f"✅ Export terminé dans {output_path}")
     return results
