@@ -14,7 +14,10 @@ Upload a PGN file (downloadable from Lichess or Chess.com).
 This program identifies recurring positions where the difference between Stockfish's evaluation and your move's evaluation is the largest.
 You can then see a tab with all analysed positions, and select each position to visualize it, with the Stockfish evaluations.
 
-⚠️ Note: The processing time is quite long, ~1 minutes 20 seconds per game, so ~2 hours 15 minutes for 100 games. 
+We only analyse the moves 3 to 15 of each game, to focus on the opening phase, and show the positions repeated at least 2 times
+with at least 0.3 pawn difference between your move and Stockfish's recommendation.
+
+⚠️ Note: The processing time is quite long : ~1 minutes 20 seconds per game, so ~2 hours 15 minutes for 100 games. 
 """)
 st.write("")  # espacement
 

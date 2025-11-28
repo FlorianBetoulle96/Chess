@@ -34,9 +34,9 @@ COPY (
         , counter  
         from fens_grouped
         where 1=1 
-            and counter > 1
-            and stck_move != my_move
-            and diff_eval > 300
+            -- and counter > 1
+            -- and stck_move != my_move
+            -- and diff_eval > 300
         order by counter desc
     )
     select * from worst_moves
