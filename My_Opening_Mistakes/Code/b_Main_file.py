@@ -7,7 +7,8 @@ def b_main_file():
     os.makedirs("Files", exist_ok=True)
 
     # --- Chemin vers Stockfish ---
-    STOCKFISH_PATH = "Files/stockfish.exe"  # assure-toi que stockfish.exe est dans ce dossier
+    # STOCKFISH_PATH = "Files/stockfish.exe"
+    STOCKFISH_PATH = "stockfish-ubuntu"
     stockfish = Stockfish(STOCKFISH_PATH)
 
     def evaluate_position(fen):
