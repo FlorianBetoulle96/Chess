@@ -5,7 +5,7 @@ import time
 fen1 = "r3k2r/pp1n2p1/3b1q1p/1BpPp3/Q3Pp2/5N2/PP3PPP/R4RK1 b kq"
 fen2 = "r3k2r/pq3ppp/1bn1p3/3pPn2/1Pp2B2/2P2N2/P1QN1PPP/R4RK1 w kq"
 fen3 ="2rq1rk1/pp2bppp/8/5p2/2Q5/2N5/PP3PPP/R1B2RK1 w -"
-fen4 = "r4rk1/1pp1qppp/4P1n1/p4b2/1bP2B2/1Q2PB2/PP3PPP/R2R2K1 w -"
+fen4 = "r1bqkb1r/ppp1pppp/2n2n2/3p4/3P1B2/5N2/PPP1PPPP/RN1QKB1R w -"
 
 def get_stockfish(fen, time_limit, stockfish_path):
     board = chess.Board(fen)
@@ -41,7 +41,7 @@ def get_stockfish(fen, time_limit, stockfish_path):
         return best_move, score, depth, seldepth, nodes, nps, time_spent
 
 time_limit = 8
-best_move, score, depth, seldepth, nodes, nps, time_spent = get_stockfish(fen4, time_limit,"stockfish.exe")
+best_move, score, depth, seldepth, nodes, nps, time_spent = get_stockfish(fen4, time_limit,"./stockfish.exe")
 print("time_limit : ", time_limit)
 print("Meilleur coup :", best_move)
 print("Score (centipions) :", score)

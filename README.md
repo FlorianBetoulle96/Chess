@@ -3,7 +3,7 @@
 Ce dépôt contient deux projets complémentaires d’analyse automatisée autour du moteur Stockfish et de données issues de parties d’échecs personnelles.
 L’objectif global est de mesurer et comprendre les erreurs récurrentes dans les ouvertures, ainsi que d’évaluer les performances de Stockfish selon différents temps de calcul.
 
-🧠 1. My_Opening_Mistakes
+🧠 1. My Opening Mistakes
 
 Objectif :
 Identifier les positions d’ouverture où tu joues régulièrement un coup qui dégrade significativement la position, par rapport au meilleur coup suggéré par Stockfish.
