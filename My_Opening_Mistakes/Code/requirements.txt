@@ -1,4 +1,11 @@
-streamlit
-pandas
-python-chess
+chess
+chess.pgn
+io
 stockfish
+re
+duckdb
+streamlit
+chess.svg
+pandas
+streamlit.components.v1
+
