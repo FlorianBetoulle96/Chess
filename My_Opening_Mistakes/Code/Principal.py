@@ -7,6 +7,12 @@ from d_Read_sql import d_read_sql
 from e_Streamlit_full import e_streamlit_full
 import os
 
+# --- Création du dossier Files si nécessaire ---
+os.makedirs("Files", exist_ok=True)
+
+# --- Chemins vers les fichiers ---
+fen_file_path = "Files/games_fen.txt"
+
 # --- Texte explicatif ---
 st.markdown("## ♟️ Your mistakes analysis")
 st.markdown("""
@@ -21,13 +27,13 @@ with at least 0.3 pawn difference between your move and Stockfish's recommendati
 """)
 st.write("")  # espacement
 
-# --- Upload du fichier ---
+# --- Upload du fichier PGN ---
 uploaded_file = st.file_uploader("Upload a PGN file", type=["pgn"])
 
 if uploaded_file is not None:
     # --- Extraction FENs (une seule fois) ---
-    if not os.path.exists("../Files/games_fen.txt"):
-        a_extraction(uploaded_file)
+    if not os.path.exists(fen_file_path):
+        a_extraction(uploaded_file, min_move=3, max_move=15, output_path=fen_file_path)
     
     # --- Appel des autres traitements ---
     b_main_file()
