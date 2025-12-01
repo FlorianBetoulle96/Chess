@@ -14,16 +14,15 @@ os.makedirs("Files", exist_ok=True)
 fen_file_path = "Files/games_fen.txt"
 
 # --- Texte explicatif ---
-st.markdown("## ♟️ Your mistakes analysis")
+st.markdown("## ♟️ Opening mistakes analysis")
 st.markdown("""
-Upload a PGN file (downloadable from Lichess or Chess.com).  
-This program identifies recurring positions where the difference between Stockfish's evaluation and your move's evaluation is the largest.
-You can then see a tab with all analysed positions, and select each position to visualize it, with the Stockfish evaluations.
+Upload a PGN file (downloadable from Lichess or Chess.com).
+            
+This program identifies recurring positions where the difference between Stockfish's evaluation and your move's evaluation is the largest. (from moves 3 to 15)
 
-We only analyse the moves 3 to 15 of each game, to focus on the opening phase, and show the positions repeated at least 2 times
-with at least 0.3 pawn difference between your move and Stockfish's recommendation.
+You will see all analysed positions and visualize them on the board.
 
-⚠️ Note: The processing time is quite long : ~1 minutes 20 seconds per game, so ~2 hours 15 minutes for 100 games. 
+⚠️ Note: The processing time is quite long : ~1m20 par partie ⇒ ~2h15 pour 100 parties.. 
 """)
 st.write("")  # espacement
 
