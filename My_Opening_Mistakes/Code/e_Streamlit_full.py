@@ -33,7 +33,7 @@ def e_streamlit_full():
 
     selected_index = st.selectbox(
         "Position :",
-        df["Ligne"],
+        df["Position"],
         format_func=lambda i: f"Position {i}"
     )
 
