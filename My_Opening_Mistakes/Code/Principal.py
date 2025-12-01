@@ -22,12 +22,13 @@ This program finds the positions where your moves differ most from Stockfish’s
 You will see a tab with the worst positions, then you can select one to visualize it on a board.
             
 
-Upload a PGN file : downloadable from Chess.com -> see image or Lichess.com -> "Export game" in your profile
+Upload a PGN file : Chess.com -> "Game History" then download button 
+                    Lichess.com -> "Export game" in your profile
 
 ⚠️ Note: The processing time is quite long : ~1m20 per game ⇒ ~2h15 for 100 games 
 
 """)
-st.image(image_path, caption="Voici une image", use_column_width=True)
+# st.image(image_path, caption="Voici une image", use_column_width=True)
 
 # --- Upload du fichier PGN ---
 uploaded_file = st.file_uploader("", type=["pgn"])
