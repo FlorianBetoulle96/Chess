@@ -29,7 +29,7 @@ def e_streamlit_full():
     df.rename(columns={"index": "Position"}, inplace=True)
 
     # --- Tableau + sélecteur ---
-    st.dataframe(df.reset_index(drop=True), width='content')
+    st.dataframe(df, width='content')
 
     selected_index = st.selectbox(
         "Position :",
