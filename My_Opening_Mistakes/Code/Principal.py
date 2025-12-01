@@ -1,4 +1,3 @@
-import subprocess
 import streamlit as st
 import pandas as pd
 from a_Extraction import a_extraction
@@ -23,12 +22,12 @@ This program identifies recurring positions where the difference between Stockfi
 
 You will see all analysed positions and visualize them on the board.
 
-⚠️ Note: The processing time is quite long : ~1m20 par partie ⇒ ~2h15 pour 100 parties.. 
+⚠️ Note: The processing time is quite long : ~1m20 per game ⇒ ~2h15 for 100 games 
 """)
-st.write("")  # espacement
+st.image("Files/mon_image.png", caption="Voici une image", use_column_width=True)
 
 # --- Upload du fichier PGN ---
-uploaded_file = st.file_uploader("Upload a PGN file", type=["pgn"])
+uploaded_file = st.file_uploader("", type=["pgn"])
 
 if uploaded_file is not None:
     # --- Extraction FENs (une seule fois) ---
@@ -36,7 +35,6 @@ if uploaded_file is not None:
         a_extraction(uploaded_file, min_move=3, max_move=15, output_path=fen_file_path)
     
     # --- Appel des autres traitements ---
-    subprocess.run(["chmod", "+x", "stockfish-ubuntu"])
     b_main_file()
     c_cleaning()
     d_read_sql()
