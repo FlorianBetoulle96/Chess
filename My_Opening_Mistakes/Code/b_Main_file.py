@@ -8,9 +8,10 @@ def b_main_file():
 
     # --- Chemin vers Stockfish ---
     # STOCKFISH_PATH = "Files/stockfish.exe" #path pour local (Windows)
-    STOCKFISH_PATH = "stockfish" #path pour streamlit (Linux)
+    STOCKFISH_PATH = "stockfish-ubuntu" #path pour streamlit (Linux)
     stockfish = Stockfish(path=STOCKFISH_PATH) #local
     # stockfish = Stockfish(parameters={"Threads": 2, "Minimum Thinking Time": 30})
+    print("Test Stockfish valide:", stockfish.is_valid())
 
 
     def evaluate_position(fen):

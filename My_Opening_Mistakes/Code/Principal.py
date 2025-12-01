@@ -1,3 +1,4 @@
+import subprocess
 import streamlit as st
 import pandas as pd
 from a_Extraction import a_extraction
@@ -35,6 +36,7 @@ if uploaded_file is not None:
         a_extraction(uploaded_file, min_move=3, max_move=15, output_path=fen_file_path)
     
     # --- Appel des autres traitements ---
+    subprocess.run(["chmod", "+x", "stockfish-ubuntu"])
     b_main_file()
     c_cleaning()
     d_read_sql()
