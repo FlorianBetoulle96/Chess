@@ -21,7 +21,7 @@ This program identifies recurring positions where the difference between Stockfi
 
 You will see all analysed positions and visualize them on a board.
 
--> Upload a PGN file (downloadable from Lichess or Chess.com)
+-> Upload a PGN file (downloadable from Chess.com or Lichess.com)
 
 ⚠️ Note: The processing time is quite long : ~1m20 per game ⇒ ~2h15 for 100 games 
 

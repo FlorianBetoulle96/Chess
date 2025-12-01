@@ -22,10 +22,14 @@ def e_streamlit_full():
 
     # --- Ajout d'une colonne visible ---
     df.reset_index(inplace=True)
-    df.rename(columns={"index": "Ligne"}, inplace=True)
+    df = df.rename(columns={
+    "my_move": "your_move",
+    "my_eval": "your_eval"
+})
+    df.rename(columns={"index": "Position"}, inplace=True)
 
     # --- Tableau + sélecteur ---
-    st.dataframe(df, width='content')
+    st.dataframe(df.reset_index(drop=True), width='content')
 
     selected_index = st.selectbox(
         "Position :",
