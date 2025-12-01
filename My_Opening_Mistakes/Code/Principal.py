@@ -12,6 +12,7 @@ os.makedirs("Files", exist_ok=True)
 
 # --- Chemins vers les fichiers ---
 fen_file_path = "Files/games_fen.txt"
+image_path = os.path.join(os.path.dirname(__file__), "Image.png")
 
 # --- Texte explicatif ---
 st.markdown("## ♟️ Your opening mistakes")
@@ -25,7 +26,7 @@ You will see all analysed positions and visualize them on a board.
 ⚠️ Note: The processing time is quite long : ~1m20 per game ⇒ ~2h15 for 100 games 
 
 """)
-st.image("Image.png", caption="Voici une image", use_column_width=True)
+st.image(image_path, caption="Voici une image", use_column_width=True)
 
 # --- Upload du fichier PGN ---
 uploaded_file = st.file_uploader("", type=["pgn"])
