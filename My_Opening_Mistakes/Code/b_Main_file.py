@@ -1,6 +1,7 @@
 import chess
 from stockfish import Stockfish
 import os
+import subprocess
 
 def b_main_file():
     # --- Création du dossier Files si nécessaire ---
@@ -8,9 +9,10 @@ def b_main_file():
 
     # --- Chemin vers Stockfish ---
     # STOCKFISH_PATH = "Files/stockfish.exe" #path pour local (Windows)
-    STOCKFISH_PATH = "stockfish-ubuntu" #path pour streamlit (Linux)
-    stockfish = Stockfish(path=STOCKFISH_PATH) #local
-    # stockfish = Stockfish(parameters={"Threads": 2, "Minimum Thinking Time": 30})
+    STOCKFISH_PATH = os.path.join(os.path.dirname(__file__), "stockfish-ubuntu")
+    STOCKFISH_PATH = os.path.abspath(STOCKFISH_PATH)
+    subprocess.run(["chmod", "+x", STOCKFISH_PATH])
+    stockfish = Stockfish(path=STOCKFISH_PATH)
     print("Test Stockfish valide:", stockfish.is_valid())
 
 
