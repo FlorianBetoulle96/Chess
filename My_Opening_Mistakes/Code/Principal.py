@@ -17,11 +17,11 @@ image_path = os.path.join(os.path.dirname(__file__), "Image.png")
 # --- Texte explicatif ---
 st.markdown("## ♟️ Your opening mistakes")
 st.markdown("""
-This program identifies recurring positions where the difference between Stockfish's evaluation and your move's evaluation is the largest. (from moves 3 to 15)
+This program finds the positions where your moves differ most from Stockfish’s best moves (moves 3 to 15).
 
 You will see all analysed positions and visualize them on a board.
             
-            
+
 
 -> Upload a PGN file (downloadable from Chess.com or Lichess.com)
 

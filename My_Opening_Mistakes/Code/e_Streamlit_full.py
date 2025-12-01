@@ -38,7 +38,7 @@ def e_streamlit_full():
     )
 
     # --- Données de la ligne sélectionnée ---
-    row = df.loc[df["Ligne"] == selected_index].iloc[0]
+    row = df.loc[df["Position"] == selected_index].iloc[0]
     fen = row["fen"]
     turn = row["b_or_w"]
     my_move = row["my_move"]
