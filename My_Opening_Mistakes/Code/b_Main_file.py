@@ -13,7 +13,7 @@ def b_main_file():
     STOCKFISH_PATH = os.path.abspath(STOCKFISH_PATH)
     subprocess.run(["chmod", "+x", STOCKFISH_PATH])
     stockfish = Stockfish(path=STOCKFISH_PATH)
-    print("Test Stockfish valide:", stockfish.is_valid())
+    # print("Test Stockfish valide:", stockfish.is_valid())
 
 
     def evaluate_position(fen):
