@@ -25,6 +25,8 @@ def e_streamlit_full():
     df = df.rename(columns={
     "my_move": "your_move",
     "my_eval": "your_eval"
+    "stck_move": "Stockfish_move",
+    "stck_eval": "Stockfish_eval"
 })
     df.rename(columns={"index": "Position"}, inplace=True)
 
@@ -41,10 +43,10 @@ def e_streamlit_full():
     row = df.loc[df["Position"] == selected_index].iloc[0]
     fen = row["fen"]
     turn = row["b_or_w"]
-    my_move = row["my_move"]
-    my_eval = row["my_eval"]
-    stockfish_move = row["stck_move"]
-    stockfish_eval = row["stck_eval"]
+    your_move = row["your_move"]
+    your_eval = row["your_eval"]
+    stockfish_move = row["Stockfish_move"]
+    stockfish_eval = row["Stockfish_eval"]
     diff_eval = row["diff_eval"]
     counter = row["counter"]
 
@@ -78,7 +80,7 @@ def e_streamlit_full():
     # --- Affichage des coups ---
     st.markdown(f"""
     <div style="text-align:center; font-size:18px; margin-top:10px;">
-        <span style="color:#cc0000;">Your move: {my_move} (eval: {round(0.01*my_eval,2)})</span> &nbsp;&nbsp;|&nbsp;&nbsp;
+        <span style="color:#cc0000;">Your move: {your_move} (eval: {round(0.01*your_eval,2)})</span> &nbsp;&nbsp;|&nbsp;&nbsp;
         <span style="color:#00cc44;">Best move: {stockfish_move} (eval: {round(0.01*stockfish_eval,2)})</span> &nbsp;&nbsp;|&nbsp;&nbsp;
         <span style="color:#000000;">Frequency: {counter} times</span>
     </div>

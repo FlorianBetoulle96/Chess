@@ -15,15 +15,14 @@ fen_file_path = "Files/games_fen.txt"
 image_path = os.path.join(os.path.dirname(__file__), "Image.png")
 
 # --- Texte explicatif ---
-st.markdown("## ♟️ Your opening mistakes")
+st.markdown("## ♟️ Chess Gap : your opening mistakes")
 st.markdown("""
 This program finds the positions where your moves differ most from Stockfish’s best moves (moves 3 to 15).
 
-You will see all analysed positions and visualize them on a board.
+You will see a tab with the worst positions, then you can select one to visualize it on a board.
             
 
-
--> Upload a PGN file (downloadable from Chess.com or Lichess.com)
+Upload a PGN file : downloadable from Chess.com -> see image or Lichess.com -> "Export game" in your profile
 
 ⚠️ Note: The processing time is quite long : ~1m20 per game ⇒ ~2h15 for 100 games 
 
