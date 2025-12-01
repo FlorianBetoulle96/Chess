@@ -46,7 +46,7 @@ def d_read_sql():
             WHERE 1=1
                 AND counter > 1
                 AND stck_move != my_move
-                AND diff_eval > 300
+                AND diff_eval > 200
             ORDER BY counter DESC
         )
         SELECT * FROM worst_moves

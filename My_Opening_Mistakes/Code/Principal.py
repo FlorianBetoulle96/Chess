@@ -17,7 +17,7 @@ image_path = os.path.join(os.path.dirname(__file__), "Image.png")
 # --- Texte explicatif ---
 st.markdown("## ♟️ Chess Gap : your opening mistakes")
 st.markdown("""
-This program finds the positions where your moves differ most from Stockfish’s best moves (moves 3 to 15).
+This program finds the recurring positions where your moves differ most from Stockfish’s best moves (moves 3 to 15, at least 0.2 elo differences repeated 2 times).
 
 You will see a tab with the worst positions, then you can select one to visualize it on a board.
             
@@ -35,7 +35,7 @@ Upload a PGN file :
 # st.image(image_path, caption="Voici une image", use_column_width=True)
 
 # --- Upload du fichier PGN ---
-uploaded_file = st.file_uploader("", type=["pgn"])
+uploaded_file = st.file_uploader("Upload PGN", type=["pgn"], label_visibility="collapsed")
 
 if uploaded_file is not None:
     # --- Extraction FENs (une seule fois) ---
