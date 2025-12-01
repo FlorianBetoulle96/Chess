@@ -56,10 +56,10 @@ def e_streamlit_full():
 
     # --- Flèches ---
     arrows = []
-    if my_move:
+    if your_move:
         try:
-            my_move_obj = board.parse_san(my_move)
-            arrows.append(chess.svg.Arrow(my_move_obj.from_square, my_move_obj.to_square, color="#cc0000"))
+            your_move_obj = board.parse_san(your_move)
+            arrows.append(chess.svg.Arrow(your_move_obj.from_square, your_move_obj.to_square, color="#cc0000"))
         except:
             pass
     if stockfish_move:
