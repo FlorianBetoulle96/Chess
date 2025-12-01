@@ -24,7 +24,7 @@ def e_streamlit_full():
     df.reset_index(inplace=True)
     df = df.rename(columns={
     "my_move": "your_move",
-    "my_eval": "your_eval"
+    "my_eval": "your_eval",
     "stck_move": "Stockfish_move",
     "stck_eval": "Stockfish_eval"
 })
